@@ -16,6 +16,14 @@ class CatsToAdopt::CLI
 
   def menu
     puts "Enter the number of the cat you would like more info on."
+    input = gets.strip
+
+    if input.to_i > 0
+      puts "Here is the cat info you requested!"
+    else
+      puts "Please enter the number of a cat."
+    end
+
   end
 
 end
