@@ -15,13 +15,19 @@ class CatsToAdopt::CLI
   end
 
   def menu
-    puts "Enter the number of the cat you would like more info on."
-    input = gets.strip
+    input = nil
+    while input != "exit"
+      puts "Enter the number of the cat you would like more info on."
+      puts "Type list to list all cats or exit to exit the program."
+      input = gets.strip
 
-    if input.to_i > 0
-      puts "Here is the cat info you requested!"
-    else
-      puts "Please enter the number of a cat."
+      if input.to_i > 0
+        puts "Here is the cat info you requested!"
+      elsif input == "list"
+        list_cats
+      else
+        puts "Please enter the number of a cat, list, or exit."
+      end
     end
 
   end
