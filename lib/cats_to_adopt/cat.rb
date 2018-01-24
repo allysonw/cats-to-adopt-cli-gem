@@ -12,7 +12,7 @@ class CatsToAdopt::Cat
 
     cat_list = main_page.search(".pet-list-item")
 
-    cat_list[0..9].each do |cat|
+    cat_list[0..9].collect do |cat| #figure out how to scrape fewer cats
       new_cat = self.new
       new_cat.name = cat.search(".views-field-field-animal-name").text.strip
       new_cat.id = cat.search(".views-field-field-animal-name a").attr("href").text.gsub("/get-involved/adopt/pet/", "").strip
