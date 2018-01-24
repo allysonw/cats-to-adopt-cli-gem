@@ -12,7 +12,7 @@ class CatsToAdopt::CLI
     @cats = CatsToAdopt::Cat.available_cats
 
     @cats.each.with_index(1) do |cat, i|
-      puts "#{i}. #{cat.name} - #{cat.gender} - #{cat.age}"
+      puts "#{i}. #{cat.name} - #{cat.gender} - #{cat.size}"
     end
 
   end
@@ -26,6 +26,7 @@ class CatsToAdopt::CLI
 
       if input.to_i > 0
         puts "\nHere is the cat info you requested!"
+        cat_info
       elsif input == "list"
         list_cats
       elsif input == "exit"
