@@ -9,7 +9,7 @@ class CatsToAdopt::CLI
 
   def list_cats
     puts "\nCats available now:"
-    @cats = CatsToAdopt::Cat.available_cats
+    @cats = CatsToAdopt::Cat.scrape_cats
 
     @cats.each.with_index(1) do |cat, i|
       puts "#{i}. #{cat.name} - #{cat.gender} - #{cat.size}"
@@ -25,7 +25,6 @@ class CatsToAdopt::CLI
       input = gets.strip
 
       if input.to_i > 0
-        puts "\nHere is the cat info you requested!"
         @cats[input.to_i - 1].print_cat_info
       elsif input == "list"
         list_cats

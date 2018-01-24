@@ -13,3 +13,6 @@ PROGRAM DESCRIPTION
 A command line interface that lists cats available to adopt within 100 miles of Los Angeles
 
 User can select a cat to learn more details about that cat
+
+Next STEPS
+[] implement tests
