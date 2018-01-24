@@ -9,11 +9,12 @@ class CatsToAdopt::CLI
 
   def list_cats
     puts "\nCats available now:"
+    @cats = CatsToAdopt::Cat.available_cats
 
-    puts <<~HEREDOC
-    1. Finn - Domestic Short Hair - Male - Young - 1 mile away
-    2. Cliff - Domestic Short Hair - Male - Kitten - 1 mile away
-    HEREDOC
+    @cats.each.with_index(1) do |cat, i|
+      puts "#{i}. #{cat.name} - #{cat.gender} - #{cat.age}"
+    end
+
   end
 
   def menu
