@@ -30,10 +30,11 @@ class CatsToAdopt::CLI
       puts "Type list to list all cats or exit to exit the program."
       input = gets.strip
 
-      if input.to_i > 0
-        @cats[input.to_i - 1].print_cat_info
+      cats = CatsToAdopt::Cat.all
+      if input.to_i > 0 && input.to_i < cats.size + 1
+        cats[input.to_i - 1].print_cat_info
       elsif input == "list"
-        list_cats
+        cats.print_cats
       elsif input == "exit"
         puts "\nClosing program ..."
       else
