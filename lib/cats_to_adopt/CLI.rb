@@ -5,7 +5,7 @@ class CatsToAdopt::CLI
 
   def call
     make_cats
-    add_attributes_to_cats
+    #add_attributes_to_cats
     CatsToAdopt::Cat.print_cats
     menu
     goodbye
@@ -15,13 +15,13 @@ class CatsToAdopt::CLI
      Scraper.scrape_main_page('https://la.bestfriends.org/get-involved/adopt/pets?field_animal_species_tid_selective=958')
   end
 
-  def add_attributes_to_cats
-    id = nil
-    CatsToAdopt::Cat.all.each do |cat|
-      attributes = Scraper.scrape_profile_page(BASE_PATH + cat.id)
-      cat.add_cat_attributes(attributes)
-    end
-  end
+  # def add_attributes_to_cats
+  #   id = nil
+  #   CatsToAdopt::Cat.all.each do |cat|
+  #     attributes = Scraper.scrape_profile_page(BASE_PATH + cat.id)
+  #     cat.add_cat_attributes(attributes)
+  #   end
+  # end
 
   def menu
     input = nil
@@ -31,10 +31,14 @@ class CatsToAdopt::CLI
       input = gets.strip
 
       cats = CatsToAdopt::Cat.all
+
       if input.to_i > 0 && input.to_i < cats.size + 1
-        cats[input.to_i - 1].print_cat_info
+        cat_in_question = cats[input.to_i - 1]
+        attributes = Scraper.scrape_profile_page(BASE_PATH + cat_in_question.id)
+        cat_in_question.add_cat_attributes(attributes)
+        cat_in_question.print_cat_info
       elsif input == "list"
-        cats.print_cats
+        CatsToAdopt::Cat.print_cats
       elsif input == "exit"
         puts "\nClosing program ..."
       else

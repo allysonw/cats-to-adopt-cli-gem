@@ -1,15 +1,15 @@
 class Scraper
 
   # CLASS METHODS
-  # scrapes the main cat page and creates an array of Cat objects with several attributes assigned, but not all
+  # for each cat on the main page, scrapes the page for the cat's data and
+  # instantiates a Cat object with that data. Returns an array of Cat objects with several # the basic attributes assigned.
   def self.scrape_main_page(main_page_url)
 
     cats = []
-
     main_page = Nokogiri::HTML(open(main_page_url))
-    cat_list = main_page.search(".pet-list-item")
 
-    cat_list[0..9].collect do |cat| #figure out how to scrape fewer cats
+    main_page.search(".pet-list-item")[0..9].each do |cat| 
+      #figure out how to scrape fewer cats
       new_cat = CatsToAdopt::Cat.new
       new_cat.name = cat.search(".views-field-field-animal-name").text.strip
       new_cat.id = cat.search(".views-field-field-animal-name a").attr("href").text.gsub("/get-involved/adopt/pet/", "").strip
