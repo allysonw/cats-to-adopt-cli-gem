@@ -7,7 +7,7 @@ class CatsToAdopt::CLI
     goodbye
   end
 
-  def list_cats
+  def list_cats #should this be part of Cat class?
     puts "\nCats available now:"
     @cats = CatsToAdopt::Cat.scrape_cats
 

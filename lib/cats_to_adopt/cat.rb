@@ -1,6 +1,8 @@
 class CatsToAdopt::Cat
   attr_accessor :name, :gender, :size, :location, :profile_url, :id, :age, :color, :weight
 
+  @@cats #use when refactoring - create a Scraper class
+
   BASE_PATH = "https://la.bestfriends.org/get-involved/adopt/pet/"
 
   def self.scrape_cats
@@ -46,6 +48,10 @@ class CatsToAdopt::Cat
     puts "-- Weight: #{self.weight}"
     puts "-- Location: #{self.location}"
     puts "-- Profile Link: #{self.profile_url}\n"
+  end
+
+  def self.all
+    @@cats
   end
 
 end
