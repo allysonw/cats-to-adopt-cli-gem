@@ -3,34 +3,11 @@ class CatsToAdopt::Cat
 
   @@all = []
 
-  # Initialize
+  # INSTANCE METHODS
+  # save a cat when it's created
   def initialize
     @@all << self
   end
-
-  # CLASS METHODS
-  def self.all
-    @@all
-  end
-
-  def self.print_cats
-    puts "\nCats available now:"
-
-    self.all.each.with_index(1) do |cat, i|
-      puts "#{i}. #{cat.name} - #{cat.gender} - #{cat.size}"
-    end
-  end
-
-  # def self.find_cat_by_id(id)
-  #   return 37673447
-  # end
-
-  # def self.create_from_collection(cats_array)
-  #   cats_array.each do |cat|
-  #     Cat.new(cat)
-  # end
-
-  # INSTANCE METHODS
 
   # set additional attributes on a cat
   def add_cat_attributes(attributes)
@@ -52,4 +29,18 @@ class CatsToAdopt::Cat
     puts "-- Location: #{self.location}"
     puts "-- Profile Link: #{self.profile_url}\n"
   end
+
+  # CLASS METHODS
+  def self.all
+    @@all
+  end
+
+  def self.print_cats
+    puts "\nCats available now:"
+
+    self.all.each.with_index(1) do |cat, i|
+      puts "#{i}. #{cat.name} - #{cat.gender} - #{cat.size}"
+    end
+  end
+
 end

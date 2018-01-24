@@ -1,30 +1,26 @@
 # CLI Controller
 class CatsToAdopt::CLI
 
-  BASE_PATH = "https://la.bestfriends.org/get-involved/adopt/pet/"
+  BASE_PATH = "https://la.bestfriends.org/get-involved/adopt/"
 
   def call
     make_cats
-    #add_attributes_to_cats
-    CatsToAdopt::Cat.print_cats
+    list_cats
     menu
     goodbye
   end
 
   def make_cats
-     Scraper.scrape_main_page('https://la.bestfriends.org/get-involved/adopt/pets?field_animal_species_tid_selective=958')
+    CatsToAdopt::Scraper.scrape_main_page(BASE_PATH + 'pets?field_animal_species_tid_selective=958')
   end
 
-  # def add_attributes_to_cats
-  #   id = nil
-  #   CatsToAdopt::Cat.all.each do |cat|
-  #     attributes = Scraper.scrape_profile_page(BASE_PATH + cat.id)
-  #     cat.add_cat_attributes(attributes)
-  #   end
-  # end
+  def list_cats
+    CatsToAdopt::Cat.print_cats
+  end
 
   def menu
     input = nil
+
     while input != "exit"
       puts "\nEnter the number of the cat you would like more info on."
       puts "Type list to list all cats or exit to exit the program."
@@ -34,11 +30,11 @@ class CatsToAdopt::CLI
 
       if input.to_i > 0 && input.to_i < cats.size + 1
         cat_in_question = cats[input.to_i - 1]
-        attributes = Scraper.scrape_profile_page(BASE_PATH + cat_in_question.id)
+        attributes = CatsToAdopt::Scraper.scrape_profile_page(BASE_PATH + 'pet/' + cat_in_question.id)
         cat_in_question.add_cat_attributes(attributes)
         cat_in_question.print_cat_info
       elsif input == "list"
-        CatsToAdopt::Cat.print_cats
+        list_cats
       elsif input == "exit"
         puts "\nClosing program ..."
       else
