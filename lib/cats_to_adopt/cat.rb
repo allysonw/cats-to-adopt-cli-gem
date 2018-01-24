@@ -1,46 +1,46 @@
 class CatsToAdopt::Cat
   attr_accessor :name, :gender, :size, :location, :profile_url, :id, :age, :color, :weight
 
-  @@cats #use when refactoring - create a Scraper class
+  @@all = []
 
-  BASE_PATH = "https://la.bestfriends.org/get-involved/adopt/pet/"
-
-  # CLASS METHODS
-  def self.scrape_cats
-
-    cats = []
-
-    # scrape main page
-    main_page = Nokogiri::HTML(open("https://la.bestfriends.org/get-involved/adopt/pets?field_animal_species_tid_selective=958"))
-
-    cat_list = main_page.search(".pet-list-item")
-
-    cat_list[0..9].collect do |cat| #figure out how to scrape fewer cats
-      new_cat = self.new
-      new_cat.name = cat.search(".views-field-field-animal-name").text.strip
-      new_cat.id = cat.search(".views-field-field-animal-name a").attr("href").text.gsub("/get-involved/adopt/pet/", "").strip
-      new_cat.gender = cat.search(".views-field-field-animal-sex .field-content").text.strip
-      new_cat.size = cat.search(".views-field-field-animal-size .field-content").text.strip
-      new_cat.location = cat.search(".views-field-field-shelter-state .field-content").text.strip
-      new_cat.profile_url = BASE_PATH + new_cat.id
-
-      cats << new_cat # cats is an array of cat objects with several attributes assigned, but not all
-    end
-
-    # scrape each cat's profile page and add additional attributes
-    cats.each do |cat|
-      profile_page = Nokogiri::HTML(open(BASE_PATH + cat.id))
-
-      cat.color = profile_page.search(".petpoint-pet-color .info").text.strip
-      cat.weight = profile_page.search(".card__info .petpoint-pet-weight:nth-child(7) .info").text.strip
-      cat.age = profile_page.search(".card__info .petpoint-pet-age:nth-child(4) .info").text.strip
-    end
-
-    cats
+  # Initialize
+  def initialize
+    @@all << self
   end
 
+  # CLASS METHODS
+  def self.all
+    @@all
+  end
+
+  def self.print_cats
+    puts "\nCats available now:"
+
+    self.all.each.with_index(1) do |cat, i|
+      puts "#{i}. #{cat.name} - #{cat.gender} - #{cat.size}"
+    end
+  end
+
+  # def self.find_cat_by_id(id)
+  #   return 37673447
+  # end
+
+  # def self.create_from_collection(cats_array)
+  #   cats_array.each do |cat|
+  #     Cat.new(cat)
+  # end
+
   # INSTANCE METHODS
-  # prints detailed info for a single cat
+
+  # set additional attributes on a cat
+  def add_cat_attributes(attributes)
+    self.color = attributes[:color]
+    self.weight = attributes[:weight]
+    self.age = attributes[:age]
+    self.profile_url = 'https://la.bestfriends.org/get-involved/adopt/pet/' + self.id
+  end
+
+  # prints detailed information for a cat
   def print_cat_info
     puts "\nCat Name: #{self.name}"
     puts "-- ID: #{self.id}"
@@ -52,9 +52,4 @@ class CatsToAdopt::Cat
     puts "-- Location: #{self.location}"
     puts "-- Profile Link: #{self.profile_url}\n"
   end
-
-  def self.all
-    @@cats
-  end
-
 end

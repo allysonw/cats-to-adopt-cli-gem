@@ -1,26 +1,26 @@
 # CLI Controller
 class CatsToAdopt::CLI
 
+  BASE_PATH = "https://la.bestfriends.org/get-involved/adopt/pet/"
+
   def call
-    # make cats
-    # add attributes to cats
-    # display cats
-    # display menu (contains looping logic)
-    # goodbye
-    list_cats
+    make_cats
+    add_attributes_to_cats
+    CatsToAdopt::Cat.print_cats
     menu
     goodbye
   end
 
-  def list_cats #should this be part of Cat class?
+  def make_cats
+     Scraper.scrape_main_page('https://la.bestfriends.org/get-involved/adopt/pets?field_animal_species_tid_selective=958')
+  end
 
-    puts "\nCats available now:"
-    @cats = CatsToAdopt::Cat.scrape_cats
-
-    @cats.each.with_index(1) do |cat, i|
-      puts "#{i}. #{cat.name} - #{cat.gender} - #{cat.size}"
+  def add_attributes_to_cats
+    id = nil
+    CatsToAdopt::Cat.all.each do |cat|
+      attributes = Scraper.scrape_profile_page(BASE_PATH + cat.id)
+      cat.add_cat_attributes(attributes)
     end
-
   end
 
   def menu
