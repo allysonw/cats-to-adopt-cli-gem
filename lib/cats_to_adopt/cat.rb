@@ -5,6 +5,7 @@ class CatsToAdopt::Cat
 
   BASE_PATH = "https://la.bestfriends.org/get-involved/adopt/pet/"
 
+  # CLASS METHODS
   def self.scrape_cats
 
     cats = []
@@ -38,6 +39,8 @@ class CatsToAdopt::Cat
     cats
   end
 
+  # INSTANCE METHODS
+  # prints detailed info for a single cat
   def print_cat_info
     puts "\nCat Name: #{self.name}"
     puts "-- ID: #{self.id}"
