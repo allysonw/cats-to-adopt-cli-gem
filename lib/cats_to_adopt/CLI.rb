@@ -26,7 +26,7 @@ class CatsToAdopt::CLI
 
       if input.to_i > 0
         puts "\nHere is the cat info you requested!"
-        cat_info
+        @cats[input.to_i - 1].print_cat_info
       elsif input == "list"
         list_cats
       elsif input == "exit"
