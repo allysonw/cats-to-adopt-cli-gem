@@ -37,8 +37,12 @@ class CatsToAdopt::CLI
 
       if input.to_i > 0 && input.to_i < cats.size + 1
         cat_in_question = cats[input.to_i - 1]
-        attributes = CatsToAdopt::Scraper.scrape_profile_page(BASE_PATH + 'pet/' + cat_in_question.id)
-        cat_in_question.add_cat_attributes(attributes)
+
+        if cat_in_question.color == nil # we have not yet scraped this cat's profile page
+          attributes = CatsToAdopt::Scraper.scrape_profile_page(BASE_PATH + 'pet/' + cat_in_question.id)
+          cat_in_question.add_cat_attributes(attributes)
+        end
+
         cat_in_question.print_cat_info
       elsif input == "list"
         list_cats

@@ -23,4 +23,4 @@ NEXT STEPS
 - [ ] Prepare a video demo (narration helps!) describing how a user would interact with your working gem.
 - [ ] Write a blog post about the project and process.
 - [ ] On Learn, submit links to the GitHub repository for your app, your video demo, and your blog post each to the corresponding - textbox in the right rail, and hit "I'm done" to wrap it up.
-- [ ] For bonus points, instead of just creating an application, create a gem and for extra bonus points try publishing it to RubyGems. (record coding session)
+- [X] For bonus points, instead of just creating an application, create a gem and for extra bonus points try publishing it to RubyGems. (record coding session)
