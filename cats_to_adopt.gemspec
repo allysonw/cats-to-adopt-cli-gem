@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Allyson Wesman"]
   spec.email         = ["allysonwesman@gmail.com"]
 
-  spec.summary       = %q{This is the short description}
-  spec.description   = %q{There will be a longer description here.}
+  spec.summary       = %q{Lists and provides info on current cats available to adopt from NKLA's website.}
+  spec.description   = %q{Created as  Ruby final project for Flatiron School's Online Web Developer pgoram. The gem scrapes No Kill LA's page on cats available to adopt now and lists them in a CLI interface. The user can choose a cat to get more information.}}
   spec.homepage      = "https://github.com/allysonw/cats-to-adopt-cli-gem"
   spec.license       = "MIT"
 
