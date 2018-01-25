@@ -5,7 +5,7 @@ RSpec.describe CatsToAdopt::CLI do
   # If these cassettes are deleted or VCR generates new cassettes this data will
   # need to be updated from  https://la.bestfriends.org/get-involved/adopt/pets?field_animal_species_tid_selective=958
   around(:each) do |example|
-    VCR.use_cassette("cats_to_adopt") do
+    VCR.use_cassette("cats_to_adopt", :record => :new_episodes) do
       example.run
     end
   end
