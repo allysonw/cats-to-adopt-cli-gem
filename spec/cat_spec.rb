@@ -10,11 +10,7 @@ RSpec.describe CatsToAdopt::Cat do
      cat.location = "Los Angeles"
      cat}
 
-  # after(:each) do
-  #   CatsToAdopt::Cat.class_variable_set(:@@all, [])
-  # end
-
-  describe "#new" do
+  describe "::new" do
     it "creates a new Cat." do
       expect{new_cat = CatsToAdopt::Cat.new; new_cat.name = "Franklin"}.to_not raise_error
     end
@@ -27,27 +23,20 @@ RSpec.describe CatsToAdopt::Cat do
   end
 
   describe "#all" do
-    it "returns an array of all the cats" do
-      expect(true).to eq(false)
+    it 'returns the class variable @@all' do
+      CatsToAdopt::Cat.class_variable_set(:@@all, [])
+      expect(CatsToAdopt::Cat.all).to match_array([])
     end
   end
 
-  describe "#scrape_cats" do
-    it 'correctly scrapes cat info for the cats' do
-      expect(true).to eq(false)
+  describe "#add_cat_attributes" do
+    it 'correctly adds new attributes to a cat' do
+      attributes = {color: "Blue", weight: "300 lbs", age: "35"}
+      cat.add_cat_attributes(attributes)
+      expect(cat.color).to eq("Blue")
+      expect(cat.weight).to eq("300 lbs")
+      expect(cat.age).to eq("35")
     end
   end
 
-  describe "#print_cat_info" do
-    it 'correctly scrapes cat info for the cats' do
-      expect(true).to eq(false)
-    end
-  end
-
-  describe "#list_cats" do
-    it 'lists info for all the cats' do
-      expect(true).to eq(false)
-    end
-  end
-
-end # end spec
+end # end cat_spec
