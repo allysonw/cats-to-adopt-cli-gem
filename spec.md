@@ -7,7 +7,7 @@ The CLI shows a list of current cats available for adoption at the NKLA website.
 
 - [X] Pull data from an external source
 
-I used Nokogiri & Open URI to scrape data from the NKLA index site for adoptable cats as well as each cat's profile page. I used VCR and WebMock to cache the results of my HTTP requests during testing as to not bombard the NKLA site with requests.
+I used Nokogiri & Open URI to scrape data from the NKLA index site for adoptable cats as well as each cat's profile page. I used VCR and WebMock to cache the results of my HTTP requests during testing as to not bombard the NKLA site with requests. The CLI scrapes the index page when the program starts, but each cat's profile page is only scraped when that cat's info is requested by the user to reduce the initial loading time.
 
 - [X] Implement both list and detail views
 

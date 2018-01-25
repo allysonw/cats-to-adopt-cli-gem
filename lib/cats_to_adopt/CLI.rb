@@ -3,10 +3,18 @@ class CatsToAdopt::CLI
   BASE_PATH = "https://la.bestfriends.org/get-involved/adopt/"
 
   def call
+    intro_message
     make_cats
     list_cats
     menu
     goodbye
+  end
+
+  def intro_message
+    puts "\n-----------------------------"
+    puts "| Welcome to Cats to Adopt! |"
+    puts "-----------------------------\n\n"
+    puts "Retrieving cat info..."
   end
 
   def make_cats
