@@ -7,11 +7,6 @@ VCR.configure do |config|
   config.hook_into :webmock
 end
 
-VCR.use_cassette('example', :record => :new_episodes) do
-  response = Net::HTTP.get_response('localhost', '/', $server.port)
-  puts "Response: #{response.body}"
-end 
-
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
   config.example_status_persistence_file_path = ".rspec_status"
