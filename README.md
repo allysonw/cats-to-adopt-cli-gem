@@ -8,6 +8,7 @@ You can install this gem via `gem install cats_to_adopt_cli_gem`. The `cats_to_a
 ## Usage
 
     Run: `cats_to_adopt` after installing the gem
+    TEST
 
 ## Development
 
