@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cats_to_adopt (0.1.0)
+    cats_to_adopt (0.1.1)
       nokogiri
 
 GEM
