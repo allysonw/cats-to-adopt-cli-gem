@@ -2,13 +2,15 @@
 
 A command line interface that lists cats available to adopt from NKLA (No Kill Los Angeles). The user can select a cat to learn more details about that cat.
 
+Version 0.1.1 can be found at [rubygems.org](https://rubygems.org/gems/cats_to_adopt) 
+
 ## Installation
 You can install this gem via `gem install cats_to_adopt_cli_gem`. The `cats_to_adopt` CLI will be installed and you can run `cats_to_adopt` to get a list of cats available to adopt from NKLA in your command line.
 
 ## Usage
 
     Run: `cats_to_adopt` after installing the gem
-    
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
