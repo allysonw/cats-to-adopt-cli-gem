@@ -7,26 +7,7 @@ You can install this gem via `gem install cats_to_adopt_cli_gem`. The `cats_to_a
 
 ## Usage
 
-  $ gem install cats_to_adopt
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'cats_to_adopt'
-```
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install cats_to_adopt
-
-## Usage
-
-  run ./bin/cats_to_adopt
-
-  Run: `cats_to_adopt` after installing the gem.
+    Run: `cats_to_adopt` after installing the gem
 
 ## Development
 

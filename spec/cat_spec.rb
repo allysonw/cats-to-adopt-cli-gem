@@ -42,5 +42,4 @@ RSpec.describe CatsToAdopt::Cat do
       expect(cat.age).to eq("35")
     end
   end
-
 end # end cat_spec

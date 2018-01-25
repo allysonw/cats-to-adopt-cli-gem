@@ -13,8 +13,6 @@ http_interactions:
       - "*/*"
       User-Agent:
       - Ruby
-      Host:
-      - la.bestfriends.org
   response:
     status:
       code: 200
@@ -23,7 +21,7 @@ http_interactions:
       Content-Type:
       - text/html; charset=utf-8
       Content-Length:
-      - '17482'
+      - '17403'
       Connection:
       - keep-alive
       Cache-Control:
@@ -31,7 +29,7 @@ http_interactions:
       Content-Language:
       - en
       Date:
-      - Thu, 25 Jan 2018 02:36:54 GMT
+      - Thu, 25 Jan 2018 06:58:57 GMT
       Expires:
       - Sun, 19 Nov 1978 05:00:00 GMT
       Link:
@@ -51,9 +49,9 @@ http_interactions:
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 c66a9c8f31dcbd61d052f66d50b6d87c.cloudfront.net (CloudFront)
+      - 1.1 88fd7dde3a5c5393235b17cbffc8c4af.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - WmT7ObIrQZZeH8zOlKZLwmpC1u9Im02wUNLjO4K0eeK00mGILL3LDg==
+      - JqnEhVTMdOL2QRpC5lQ17s5jly1roLt7bSaEdeQvjsQbhFnc3OvU6w==
     body:
       encoding: ASCII-8BIT
       string: "<!DOCTYPE html>\n  <!--[if IE]>\n    <html class=\"no-js lte-ie9\"
@@ -314,7 +312,7 @@ http_interactions:
         Adoptions</a></li>\n<li class=\"last leaf menu-mlid-1112\"><a href=\"/angelsofthecity\">Angels
         of the City</a></li>\n</ul></div>\n\t\t\t</nav>\n\n      \n      <a id=\"main-content\"></a>\n\n\n
         \                           \n      \n        \n      \n      \n\n<div class=\"view
-        view-rescue-groups view-id-rescue_groups view-display-id-page view-dom-id-515671eb51f3f37272c73feddef9261f\">\n\n
+        view-rescue-groups view-id-rescue_groups view-display-id-page view-dom-id-1a2a1db4347290bff2590b628ae95471\">\n\n
         \                       <div class=\"view-header\">\n            <div id=\"pet-search-title\"><span>Search
         Options</span></div>        </div>\n    \n            <div class=\"view-filters\">\n
         \           <form action=\"/get-involved/adopt/pets\" method=\"get\" id=\"views-exposed-form-rescue-groups-page\"
@@ -446,7 +444,7 @@ http_interactions:
         </span>    <span class=\"field-content\">No Kill Los Angeles (Los Angeles,
         CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n      \n  <div
         class=\"views-field views-field-field-animal-image\">        <div class=\"field-content\"><a
-        href=\"/get-involved/adopt/pet/12505204\"><img src=\"https://s3.amazonaws.com/filestore.rescuegroups.org/6686/pictures/animals/12505/12505204/54063543_420x420.jpg\"
+        href=\"/get-involved/adopt/pet/12505204\"><img src=\"https://s3.amazonaws.com/filestore.rescuegroups.org/6686/pictures/animals/12505/12505204/54068927_420x420.jpg\"
         /></a></div>  </div>  \n  <div class=\"views-field views-field-field-animal-name\">
         \       <div class=\"field-content\"><a href=\"/get-involved/adopt/pet/12505204\">Vegas</a></div>
         \ </div>  \n  <div class=\"views-field views-field-field-animal-sex\">    <span
@@ -459,7 +457,7 @@ http_interactions:
         (Mission Hills, CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n
         \     \n  <div class=\"views-field views-field-field-animal-image\">        <div
         class=\"field-content\"><a href=\"/get-involved/adopt/pet/12505157\"><img
-        src=\"https://s3.amazonaws.com/filestore.rescuegroups.org/6764/pictures/animals/12505/12505157/54057851_420x420.jpg\"
+        src=\"https://s3.amazonaws.com/filestore.rescuegroups.org/6764/pictures/animals/12505/12505157/54066504_420x420.jpg\"
         /></a></div>  </div>  \n  <div class=\"views-field views-field-field-animal-name\">
         \       <div class=\"field-content\"><a href=\"/get-involved/adopt/pet/12505157\">Moo</a></div>
         \ </div>  \n  <div class=\"views-field views-field-field-animal-sex\">    <span
@@ -496,32 +494,8 @@ http_interactions:
         </span>    <span class=\"field-content\">Best Friends Animal Society Los Angeles
         (Mission Hills, CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n
         \     \n  <div class=\"views-field views-field-field-animal-image\">        <div
-        class=\"field-content\"><a href=\"/get-involved/adopt/pet/12501815\"><img
-        src=\"https://s3.amazonaws.com/filestore.rescuegroups.org/6764/pictures/animals/12501/12501815/54038448_420x420.jpg\"
-        /></a></div>  </div>  \n  <div class=\"views-field views-field-field-animal-name\">
-        \       <div class=\"field-content\"><a href=\"/get-involved/adopt/pet/12501815\">Coral</a></div>
-        \ </div>  \n  <div class=\"views-field views-field-field-animal-sex\">    <span
-        class=\"views-label views-label-field-animal-sex\">SEX: </span>    <span class=\"field-content\">Female</span>
-        \ </div>  \n  <div class=\"views-field views-field-field-animal-size\">    <span
-        class=\"views-label views-label-field-animal-size\">SIZE: </span>    <span
-        class=\"field-content\">Medium</span>  </div>  \n  <div class=\"views-field
-        views-field-field-shelter-state\">    <span class=\"views-label views-label-field-shelter-state\">LOCATION:
-        </span>    <span class=\"field-content\">No Kill Los Angeles (Los Angeles,
-        CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n      \n  <div
-        class=\"views-field views-field-field-animal-image\">        <div class=\"field-content\"><a
-        href=\"/get-involved/adopt/pet/12501814\"><img src=\"https://s3.amazonaws.com/filestore.rescuegroups.org/6764/pictures/animals/12501/12501814/54038445_420x420.jpg\"
-        /></a></div>  </div>  \n  <div class=\"views-field views-field-field-animal-name\">
-        \       <div class=\"field-content\"><a href=\"/get-involved/adopt/pet/12501814\">Cyan</a></div>
-        \ </div>  \n  <div class=\"views-field views-field-field-animal-sex\">    <span
-        class=\"views-label views-label-field-animal-sex\">SEX: </span>    <span class=\"field-content\">Female</span>
-        \ </div>  \n  <div class=\"views-field views-field-field-animal-size\">    <span
-        class=\"views-label views-label-field-animal-size\">SIZE: </span>    <span
-        class=\"field-content\">Medium</span>  </div>  \n  <div class=\"views-field
-        views-field-field-shelter-state\">    <span class=\"views-label views-label-field-shelter-state\">LOCATION:
-        </span>    <span class=\"field-content\">No Kill Los Angeles (Los Angeles,
-        CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n      \n  <div
-        class=\"views-field views-field-field-animal-image\">        <div class=\"field-content\"><a
-        href=\"/get-involved/adopt/pet/12501763\"><img src=\"/sites/all/themes/bf_zurb/images/content/blog-default-image.jpg\"></a></div>
+        class=\"field-content\"><a href=\"/get-involved/adopt/pet/12501763\"><img
+        src=\"/sites/all/themes/bf_zurb/images/content/blog-default-image.jpg\"></a></div>
         \ </div>  \n  <div class=\"views-field views-field-field-animal-name\">        <div
         class=\"field-content\"><a href=\"/get-involved/adopt/pet/12501763\">Minty</a></div>
         \ </div>  \n  <div class=\"views-field views-field-field-animal-sex\">    <span
@@ -595,20 +569,8 @@ http_interactions:
         </span>    <span class=\"field-content\">Best Friends Animal Society Los Angeles
         (Mission Hills, CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n
         \     \n  <div class=\"views-field views-field-field-animal-image\">        <div
-        class=\"field-content\"><a href=\"/get-involved/adopt/pet/12498523\"><img
-        src=\"https://s3.amazonaws.com/filestore.rescuegroups.org/6764/pictures/animals/12498/12498523/54038432_420x420.jpg\"
-        /></a></div>  </div>  \n  <div class=\"views-field views-field-field-animal-name\">
-        \       <div class=\"field-content\"><a href=\"/get-involved/adopt/pet/12498523\">Beta</a></div>
-        \ </div>  \n  <div class=\"views-field views-field-field-animal-sex\">    <span
-        class=\"views-label views-label-field-animal-sex\">SEX: </span>    <span class=\"field-content\">Female</span>
-        \ </div>  \n  <div class=\"views-field views-field-field-animal-size\">    <span
-        class=\"views-label views-label-field-animal-size\">SIZE: </span>    <span
-        class=\"field-content\">Medium</span>  </div>  \n  <div class=\"views-field
-        views-field-field-shelter-state\">    <span class=\"views-label views-label-field-shelter-state\">LOCATION:
-        </span>    <span class=\"field-content\">No Kill Los Angeles (Los Angeles,
-        CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n      \n  <div
-        class=\"views-field views-field-field-animal-image\">        <div class=\"field-content\"><a
-        href=\"/get-involved/adopt/pet/12498521\"><img src=\"https://s3.amazonaws.com/filestore.rescuegroups.org/6764/pictures/animals/12498/12498521/54038429_420x420.jpg\"
+        class=\"field-content\"><a href=\"/get-involved/adopt/pet/12498521\"><img
+        src=\"https://s3.amazonaws.com/filestore.rescuegroups.org/6764/pictures/animals/12498/12498521/54038429_420x420.jpg\"
         /></a></div>  </div>  \n  <div class=\"views-field views-field-field-animal-name\">
         \       <div class=\"field-content\"><a href=\"/get-involved/adopt/pet/12498521\">Mulan</a></div>
         \ </div>  \n  <div class=\"views-field views-field-field-animal-sex\">    <span
@@ -628,6 +590,18 @@ http_interactions:
         \   <span class=\"field-content\">Male</span>  </div>  \n  <div class=\"views-field
         views-field-field-animal-size\">    <span class=\"views-label views-label-field-animal-size\">SIZE:
         </span>    <span class=\"field-content\">Medium</span>  </div>  \n  <div class=\"views-field
+        views-field-field-shelter-state\">    <span class=\"views-label views-label-field-shelter-state\">LOCATION:
+        </span>    <span class=\"field-content\">No Kill Los Angeles (Los Angeles,
+        CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n      \n  <div
+        class=\"views-field views-field-field-animal-image\">        <div class=\"field-content\"><a
+        href=\"/get-involved/adopt/pet/12498523\"><img src=\"https://s3.amazonaws.com/filestore.rescuegroups.org/6764/pictures/animals/12498/12498523/54038432_420x420.jpg\"
+        /></a></div>  </div>  \n  <div class=\"views-field views-field-field-animal-name\">
+        \       <div class=\"field-content\"><a href=\"/get-involved/adopt/pet/12498523\">Beta</a></div>
+        \ </div>  \n  <div class=\"views-field views-field-field-animal-sex\">    <span
+        class=\"views-label views-label-field-animal-sex\">SEX: </span>    <span class=\"field-content\">Female</span>
+        \ </div>  \n  <div class=\"views-field views-field-field-animal-size\">    <span
+        class=\"views-label views-label-field-animal-size\">SIZE: </span>    <span
+        class=\"field-content\">Medium</span>  </div>  \n  <div class=\"views-field
         views-field-field-shelter-state\">    <span class=\"views-label views-label-field-shelter-state\">LOCATION:
         </span>    <span class=\"field-content\">No Kill Los Angeles (Los Angeles,
         CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n      \n  <div
@@ -756,20 +730,7 @@ http_interactions:
         </span>    <span class=\"field-content\">No Kill Los Angeles (Los Angeles,
         CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n      \n  <div
         class=\"views-field views-field-field-animal-image\">        <div class=\"field-content\"><a
-        href=\"/get-involved/adopt/pet/12487421\"><img src=\"/sites/all/themes/bf_zurb/images/content/blog-default-image.jpg\"></a></div>
-        \ </div>  \n  <div class=\"views-field views-field-field-animal-name\">        <div
-        class=\"field-content\"><a href=\"/get-involved/adopt/pet/12487421\">Faline</a></div>
-        \ </div>  \n  <div class=\"views-field views-field-field-animal-sex\">    <span
-        class=\"views-label views-label-field-animal-sex\">SEX: </span>    <span class=\"field-content\">Female</span>
-        \ </div>  \n  <div class=\"views-field views-field-field-animal-size\">    <span
-        class=\"views-label views-label-field-animal-size\">SIZE: </span>    <span
-        class=\"field-content\">Medium</span>  </div>  \n  <div class=\"views-field
-        views-field-field-shelter-state\">    <span class=\"views-label views-label-field-shelter-state\">LOCATION:
-        </span>    <span class=\"field-content\">Best Friends Animal Society Los Angeles
-        (Mission Hills, CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n
-        \     \n  <div class=\"views-field views-field-field-animal-image\">        <div
-        class=\"field-content\"><a href=\"/get-involved/adopt/pet/12486070\"><img
-        src=\"https://s3.amazonaws.com/filestore.rescuegroups.org/6764/pictures/animals/12486/12486070/53864132_420x420.jpg\"
+        href=\"/get-involved/adopt/pet/12486070\"><img src=\"https://s3.amazonaws.com/filestore.rescuegroups.org/6764/pictures/animals/12486/12486070/53864132_420x420.jpg\"
         /></a></div>  </div>  \n  <div class=\"views-field views-field-field-animal-name\">
         \       <div class=\"field-content\"><a href=\"/get-involved/adopt/pet/12486070\">Bugatti</a></div>
         \ </div>  \n  <div class=\"views-field views-field-field-animal-sex\">    <span
@@ -1785,19 +1746,6 @@ http_interactions:
         </span>    <span class=\"field-content\">Best Friends Animal Society Los Angeles
         (Mission Hills, CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n
         \     \n  <div class=\"views-field views-field-field-animal-image\">        <div
-        class=\"field-content\"><a href=\"/get-involved/adopt/pet/12434186\"><img
-        src=\"https://s3.amazonaws.com/filestore.rescuegroups.org/6686/pictures/animals/12434/12434186/53342888_420x420.jpg\"
-        /></a></div>  </div>  \n  <div class=\"views-field views-field-field-animal-name\">
-        \       <div class=\"field-content\"><a href=\"/get-involved/adopt/pet/12434186\">Lily
-        Rose</a></div>  </div>  \n  <div class=\"views-field views-field-field-animal-sex\">
-        \   <span class=\"views-label views-label-field-animal-sex\">SEX: </span>
-        \   <span class=\"field-content\">Female</span>  </div>  \n  <div class=\"views-field
-        views-field-field-animal-size\">    <span class=\"views-label views-label-field-animal-size\">SIZE:
-        </span>    <span class=\"field-content\">Medium</span>  </div>  \n  <div class=\"views-field
-        views-field-field-shelter-state\">    <span class=\"views-label views-label-field-shelter-state\">LOCATION:
-        </span>    <span class=\"field-content\">Best Friends Animal Society Los Angeles
-        (Mission Hills, CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n
-        \     \n  <div class=\"views-field views-field-field-animal-image\">        <div
         class=\"field-content\"><a href=\"/get-involved/adopt/pet/12434145\"><img
         src=\"https://s3.amazonaws.com/filestore.rescuegroups.org/6686/pictures/animals/12434/12434145/53342796_420x420.jpg\"
         /></a></div>  </div>  \n  <div class=\"views-field views-field-field-animal-name\">
@@ -1811,15 +1759,15 @@ http_interactions:
         </span>    <span class=\"field-content\">Best Friends Animal Society Los Angeles
         (Mission Hills, CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n
         \     \n  <div class=\"views-field views-field-field-animal-image\">        <div
-        class=\"field-content\"><a href=\"/get-involved/adopt/pet/12434180\"><img
-        src=\"/sites/all/themes/bf_zurb/images/content/blog-default-image.jpg\"></a></div>
-        \ </div>  \n  <div class=\"views-field views-field-field-animal-name\">        <div
-        class=\"field-content\"><a href=\"/get-involved/adopt/pet/12434180\">Iskkiee</a></div>
-        \ </div>  \n  <div class=\"views-field views-field-field-animal-sex\">    <span
-        class=\"views-label views-label-field-animal-sex\">SEX: </span>    <span class=\"field-content\">Female</span>
-        \ </div>  \n  <div class=\"views-field views-field-field-animal-size\">    <span
-        class=\"views-label views-label-field-animal-size\">SIZE: </span>    <span
-        class=\"field-content\">Small</span>  </div>  \n  <div class=\"views-field
+        class=\"field-content\"><a href=\"/get-involved/adopt/pet/12434186\"><img
+        src=\"https://s3.amazonaws.com/filestore.rescuegroups.org/6686/pictures/animals/12434/12434186/53342888_420x420.jpg\"
+        /></a></div>  </div>  \n  <div class=\"views-field views-field-field-animal-name\">
+        \       <div class=\"field-content\"><a href=\"/get-involved/adopt/pet/12434186\">Lily
+        Rose</a></div>  </div>  \n  <div class=\"views-field views-field-field-animal-sex\">
+        \   <span class=\"views-label views-label-field-animal-sex\">SEX: </span>
+        \   <span class=\"field-content\">Female</span>  </div>  \n  <div class=\"views-field
+        views-field-field-animal-size\">    <span class=\"views-label views-label-field-animal-size\">SIZE:
+        </span>    <span class=\"field-content\">Medium</span>  </div>  \n  <div class=\"views-field
         views-field-field-shelter-state\">    <span class=\"views-label views-label-field-shelter-state\">LOCATION:
         </span>    <span class=\"field-content\">Best Friends Animal Society Los Angeles
         (Mission Hills, CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n
@@ -1833,6 +1781,19 @@ http_interactions:
         \ </div>  \n  <div class=\"views-field views-field-field-animal-size\">    <span
         class=\"views-label views-label-field-animal-size\">SIZE: </span>    <span
         class=\"field-content\">Medium</span>  </div>  \n  <div class=\"views-field
+        views-field-field-shelter-state\">    <span class=\"views-label views-label-field-shelter-state\">LOCATION:
+        </span>    <span class=\"field-content\">Best Friends Animal Society Los Angeles
+        (Mission Hills, CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n
+        \     \n  <div class=\"views-field views-field-field-animal-image\">        <div
+        class=\"field-content\"><a href=\"/get-involved/adopt/pet/12434180\"><img
+        src=\"/sites/all/themes/bf_zurb/images/content/blog-default-image.jpg\"></a></div>
+        \ </div>  \n  <div class=\"views-field views-field-field-animal-name\">        <div
+        class=\"field-content\"><a href=\"/get-involved/adopt/pet/12434180\">Iskkiee</a></div>
+        \ </div>  \n  <div class=\"views-field views-field-field-animal-sex\">    <span
+        class=\"views-label views-label-field-animal-sex\">SEX: </span>    <span class=\"field-content\">Female</span>
+        \ </div>  \n  <div class=\"views-field views-field-field-animal-size\">    <span
+        class=\"views-label views-label-field-animal-size\">SIZE: </span>    <span
+        class=\"field-content\">Small</span>  </div>  \n  <div class=\"views-field
         views-field-field-shelter-state\">    <span class=\"views-label views-label-field-shelter-state\">LOCATION:
         </span>    <span class=\"field-content\">Best Friends Animal Society Los Angeles
         (Mission Hills, CA)</span>  </div>  </div>\n  <div class=\"pet-list-item\">\n
@@ -2840,9 +2801,498 @@ http_interactions:
         src=\"https://la.bestfriends.org/sites/all/themes/bf_zurb/js/vendor/jquery.flexslider.js?p0arrh\"></script>\n<script
         src=\"https://la.bestfriends.org/sites/all/themes/bf_zurb/js/vendor/jSlider.js?p0arrh\"></script>\n<script
         src=\"https://la.bestfriends.org/sites/all/themes/bf_zurb/js/scripts.js?p0arrh\"></script>\n<script>jQuery.extend(Drupal.settings,
-        {\"basePath\":\"\\/\",\"pathPrefix\":\"\",\"ajaxPageState\":{\"theme\":\"bf_zurb\",\"theme_token\":\"PAa39scT5t_n1ntT42uSv9sp3FVfMLbBDBUmLos1xMI\",\"js\":{\"misc\\/jquery.js\":1,\"misc\\/jquery.once.js\":1,\"misc\\/drupal.js\":1,\"sites\\/all\\/modules\\/contrib\\/better_exposed_filters\\/better_exposed_filters.js\":1,\"sites\\/all\\/modules\\/contrib\\/views_selective_filters\\/js\\/attachBehaviours.js\":1,\"sites\\/all\\/themes\\/bf_zurb\\/js\\/vendor\\/custom.modernizr.js\":1,\"sites\\/all\\/themes\\/bf_zurb\\/js\\/foundation.min.js\":1,\"sites\\/all\\/themes\\/bf_zurb\\/js\\/vendor\\/jquery.flexslider.js\":1,\"sites\\/all\\/themes\\/bf_zurb\\/js\\/vendor\\/jSlider.js\":1,\"sites\\/all\\/themes\\/bf_zurb\\/js\\/scripts.js\":1},\"css\":{\"sites\\/all\\/modules\\/contrib\\/date\\/date_api\\/date.css\":1,\"sites\\/all\\/modules\\/contrib\\/date\\/date_popup\\/themes\\/datepicker.1.7.css\":1,\"modules\\/field\\/theme\\/field.css\":1,\"sites\\/all\\/modules\\/contrib\\/views\\/css\\/views.css\":1,\"sites\\/all\\/modules\\/contrib\\/ckeditor\\/css\\/ckeditor.css\":1,\"\\/\\/maxcdn.bootstrapcdn.com\\/font-awesome\\/4.3.0\\/css\\/font-awesome.min.css\":1,\"sites\\/all\\/modules\\/contrib\\/ctools\\/css\\/ctools.css\":1,\"sites\\/all\\/themes\\/bf_zurb\\/css\\/rescue_groups_views.css\":1,\"sites\\/all\\/modules\\/contrib\\/node_embed\\/plugins\\/node_embed\\/node_embed.css\":1,\"sites\\/all\\/themes\\/zurb-foundation\\/css\\/normalize.css\":1,\"sites\\/all\\/themes\\/zurb-foundation\\/css\\/foundation.min.css\":1,\"sites\\/all\\/themes\\/bf_zurb\\/css\\/custom.css\":1,\"sites\\/all\\/themes\\/bf_zurb\\/css\\/print.css\":1}},\"urlIsAjaxTrusted\":{\"\\/get-involved\\/adopt\\/pets\":true},\"better_exposed_filters\":{\"datepicker\":false,\"slider\":false,\"settings\":[],\"autosubmit\":false,\"views\":{\"rescue_groups\":{\"displays\":{\"page\":{\"filters\":{\"field_animal_species_tid_selective\":{\"required\":false},\"field_animal_sex_value_selective\":{\"required\":false},\"field_animal_size_value_selective\":{\"required\":false},\"field_animal_age_value_selective\":{\"required\":false},\"field_shelter_name_value_selective\":{\"required\":false},\"field_animal_name_value\":{\"required\":false}}}}}}}});</script>\n\t<script
+        {\"basePath\":\"\\/\",\"pathPrefix\":\"\",\"ajaxPageState\":{\"theme\":\"bf_zurb\",\"theme_token\":\"1nD9CVLGKmNaFiWti0lgSLWnUAkMHVEeMz12vPjTuzo\",\"js\":{\"misc\\/jquery.js\":1,\"misc\\/jquery.once.js\":1,\"misc\\/drupal.js\":1,\"sites\\/all\\/modules\\/contrib\\/better_exposed_filters\\/better_exposed_filters.js\":1,\"sites\\/all\\/modules\\/contrib\\/views_selective_filters\\/js\\/attachBehaviours.js\":1,\"sites\\/all\\/themes\\/bf_zurb\\/js\\/vendor\\/custom.modernizr.js\":1,\"sites\\/all\\/themes\\/bf_zurb\\/js\\/foundation.min.js\":1,\"sites\\/all\\/themes\\/bf_zurb\\/js\\/vendor\\/jquery.flexslider.js\":1,\"sites\\/all\\/themes\\/bf_zurb\\/js\\/vendor\\/jSlider.js\":1,\"sites\\/all\\/themes\\/bf_zurb\\/js\\/scripts.js\":1},\"css\":{\"sites\\/all\\/modules\\/contrib\\/date\\/date_api\\/date.css\":1,\"sites\\/all\\/modules\\/contrib\\/date\\/date_popup\\/themes\\/datepicker.1.7.css\":1,\"modules\\/field\\/theme\\/field.css\":1,\"sites\\/all\\/modules\\/contrib\\/views\\/css\\/views.css\":1,\"sites\\/all\\/modules\\/contrib\\/ckeditor\\/css\\/ckeditor.css\":1,\"\\/\\/maxcdn.bootstrapcdn.com\\/font-awesome\\/4.3.0\\/css\\/font-awesome.min.css\":1,\"sites\\/all\\/modules\\/contrib\\/ctools\\/css\\/ctools.css\":1,\"sites\\/all\\/themes\\/bf_zurb\\/css\\/rescue_groups_views.css\":1,\"sites\\/all\\/modules\\/contrib\\/node_embed\\/plugins\\/node_embed\\/node_embed.css\":1,\"sites\\/all\\/themes\\/zurb-foundation\\/css\\/normalize.css\":1,\"sites\\/all\\/themes\\/zurb-foundation\\/css\\/foundation.min.css\":1,\"sites\\/all\\/themes\\/bf_zurb\\/css\\/custom.css\":1,\"sites\\/all\\/themes\\/bf_zurb\\/css\\/print.css\":1}},\"urlIsAjaxTrusted\":{\"\\/get-involved\\/adopt\\/pets\":true},\"better_exposed_filters\":{\"datepicker\":false,\"slider\":false,\"settings\":[],\"autosubmit\":false,\"views\":{\"rescue_groups\":{\"displays\":{\"page\":{\"filters\":{\"field_animal_species_tid_selective\":{\"required\":false},\"field_animal_sex_value_selective\":{\"required\":false},\"field_animal_size_value_selective\":{\"required\":false},\"field_animal_age_value_selective\":{\"required\":false},\"field_shelter_name_value_selective\":{\"required\":false},\"field_animal_name_value\":{\"required\":false}}}}}}}});</script>\n\t<script
         type=\"text/javascript\" src=\"//assets.pinterest.com/js/pinit.js\"></script>\n<script
-        type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"c72fbe0d5a\",\"applicationID\":\"43292801\",\"transactionName\":\"ZQBVZEcAWEYDWkVbDlxKdlNBCFlbTU9YVxZBOkdRUgQ=\",\"queueTime\":0,\"applicationTime\":2656,\"atts\":\"SUdWEg8aS0g=\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"\"}</script></body>\n\n</html>\n"
+        type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"c72fbe0d5a\",\"applicationID\":\"43292801\",\"transactionName\":\"ZQBVZEcAWEYDWkVbDlxKdlNBCFlbTU9YVxZBOkdRUgQ=\",\"queueTime\":0,\"applicationTime\":2115,\"atts\":\"SUdWEg8aS0g=\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"\"}</script></body>\n\n</html>\n"
     http_version: 
-  recorded_at: Thu, 25 Jan 2018 02:38:04 GMT
+  recorded_at: Thu, 25 Jan 2018 06:59:06 GMT
+- request:
+    method: get
+    uri: https://la.bestfriends.org/get-involved/adopt/pet/12505223
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '9825'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, must-revalidate
+      Content-Language:
+      - en
+      Date:
+      - Thu, 25 Jan 2018 06:59:09 GMT
+      Expires:
+      - Sun, 19 Nov 1978 05:00:00 GMT
+      Link:
+      - <https://la.bestfriends.org/get-involved/adopt/pet/12505223>; rel="canonical",<https://la.bestfriends.org/node/13719>;
+        rel="shortlink"
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Generator:
+      - Drupal 7 (http://drupal.org)
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 eb14a76753066d1c3fb6d4036024db05.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - _28magy4IAzBjRxatEwkVUoAxhkfZ6qWrwzSeVjmYs5I3Lhdr7gGZw==
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\n  <!--[if IE]>\n    <html class=\"no-js lte-ie9\"
+        lang=\"en\" >\n  <![endif]-->\n  <html class=\"no-js\" lang=\"en\" >\n<head>\n
+        \ <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1.0\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"><script
+        type=\"text/javascript\">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function
+        r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var
+        o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if(\"function\"==typeof
+        __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return
+        r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return
+        i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e(\"handle\"),a=e(2),u=e(3),c=e(\"ee\").get(\"tracer\"),f=e(\"loader\"),s=NREUM;\"undefined\"==typeof
+        window.newrelic&&(newrelic=s);var p=[\"setPageViewName\",\"setCustomAttribute\",\"setErrorHandler\",\"finished\",\"addToTrace\",\"inlineHit\",\"addRelease\"],d=\"api-\",l=d+\"ixn-\";a(p,function(e,t){s[t]=o(d+t,!0,\"api\")}),s.addPageAction=o(d+\"addPageAction\",!0),s.setCurrentRouteName=o(d+\"routeName\",!0),t.exports=newrelic,s.interaction=function(){return(new
+        r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o=\"function\"==typeof
+        t;return i(l+\"tracer\",[f.now(),e,n],r),function(){if(c.emit((o?\"\":\"no-\")+\"fn-start\",[f.now(),r,o],n),o)try{return
+        t.apply(this,arguments)}catch(e){throw c.emit(\"fn-err\",[arguments,this,e],n),e}finally{c.emit(\"fn-end\",[f.now()],n)}}}};a(\"setName,setAttribute,save,ignore,onEnd,getContext,end,get\".split(\",\"),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){\"string\"==typeof
+        e&&(e=new Error(e)),i(\"err\",[e,f.now()])}},{}],2:[function(e,t,n){function
+        r(e,t){var n=[],r=\"\",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return
+        n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function
+        r(e,t,n){t||(t=0),\"undefined\"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return
+        i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:\"undefined\"!=typeof
+        window.performance&&window.performance.timing&&\"undefined\"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function
+        r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function
+        n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var
+        p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function
+        m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||\"feature\",y[n]=t,t
+        in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return
+        b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var
+        u=\"nr@context\",c=e(\"gos\"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function
+        r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return
+        Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return
+        e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function
+        r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e(\"ee\").get(\"handle\");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function
+        r(e){var t=typeof e;return!e||\"object\"!==t&&\"function\"!==t?-1:e===window?0:a(e,i,function(){return
+        o++})}var o=1,i=\"nr@id\",a=e(\"gos\");t.exports=r},{}],loader:[function(e,t,n){function
+        r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName(\"script\")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return
+        s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c(\"mark\",[\"onload\",a()+h.offset],null,\"api\");var
+        n=d.createElement(\"script\");n.src=\"https://\"+e.agent,t.parentNode.insertBefore(n,t)}}function
+        o(){\"complete\"===d.readyState&&i()}function i(){c(\"mark\",[\"domContent\",a()+h.offset],null,\"api\")}function
+        a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new
+        Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e(\"handle\"),f=e(2),s=e(\"ee\"),p=window,d=p.document,l=\"addEventListener\",m=\"attachEvent\",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var
+        v=\"\"+location,y={beacon:\"bam.nr-data.net\",errorBeacon:\"bam.nr-data.net\",agent:\"js-agent.newrelic.com/nr-1071.min.js\"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l](\"DOMContentLoaded\",i,!1),p[l](\"load\",r,!1)):(d[m](\"onreadystatechange\",o),p[m](\"onload\",r)),c(\"mark\",[\"firstbyte\",u],null,\"api\");var
+        x=0,E=e(4)},{}]},{},[\"loader\"]);</script>\n  <meta charset=\"utf-8\" />\n<meta
+        name=\"viewport\" content=\"width=device-width, maximum-scale = 1.0\" />\n<link
+        rel=\"shortcut icon\" href=\"https://la.bestfriends.org/sites/all/themes/bf_zurb/favicon.ico\"
+        />\n<meta http-equiv=\"ImageToolbar\" content=\"false\" />\n<meta name=\"generator\"
+        content=\"Drupal 7 (http://drupal.org)\" />\n<link rel=\"canonical\" href=\"https://la.bestfriends.org/get-involved/adopt/pet/12505223\"
+        />\n<link rel=\"shortlink\" href=\"https://la.bestfriends.org/node/13719\"
+        />\n<meta property=\"og:site_name\" content=\"Best Friends Animal Society-Los
+        Angeles\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:url\"
+        content=\"https://la.bestfriends.org/get-involved/adopt/pet/12505223\" />\n<meta
+        property=\"og:title\" content=\"Toad\" />\n<meta property=\"og:updated_time\"
+        content=\"2018-01-24T13:01:13-08:00\" />\n<meta property=\"article:published_time\"
+        content=\"2018-01-24T15:59:00-08:00\" />\n<meta property=\"article:modified_time\"
+        content=\"2018-01-24T13:01:13-08:00\" />\n  <title>Toad | Best Friends Animal
+        Society-Los Angeles</title>\n  <style>\n@import url(\"https://la.bestfriends.org/sites/all/modules/contrib/date/date_api/date.css?p0arrh\");\n@import
+        url(\"https://la.bestfriends.org/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?p0arrh\");\n@import
+        url(\"https://la.bestfriends.org/sites/all/modules/contrib/fences/field.css?p0arrh\");\n@import
+        url(\"https://la.bestfriends.org/sites/all/modules/contrib/views/css/views.css?p0arrh\");\n@import
+        url(\"https://la.bestfriends.org/sites/all/modules/contrib/ckeditor/css/ckeditor.css?p0arrh\");\n</style>\n<link
+        rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css\"
+        />\n<style>\n@import url(\"https://la.bestfriends.org/sites/all/modules/contrib/ctools/css/ctools.css?p0arrh\");\n@import
+        url(\"https://la.bestfriends.org/sites/all/modules/contrib/node_embed/plugins/node_embed/node_embed.css?p0arrh\");\n</style>\n<style>\n@import
+        url(\"https://la.bestfriends.org/sites/all/themes/zurb-foundation/css/foundation.min.css?p0arrh\");\n@import
+        url(\"https://la.bestfriends.org/sites/all/themes/bf_zurb/css/custom.css?p0arrh\");\n</style>\n<style
+        media=\"print\">\n@import url(\"https://la.bestfriends.org/sites/all/themes/bf_zurb/css/print.css?p0arrh\");\n</style>\n
+        \ <!-- HTML5 element support for IE6-8 -->\n  <!--[if lt IE 9]>\n    <script
+        src=\"//html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n  <![endif]-->\n
+        \ <!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew
+        Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-56F95TB');</script>\n<!--
+        End Google Tag Manager -->\n \n</head>\n<body id=\"none\" class=\"html not-front
+        not-logged-in one-sidebar sidebar-first page-node page-node- page-node-13719
+        node-type-nk-animal section-get-involved\" >\n    <!--.page -->\n      <!--
+        Google Tag Manager -->\n<noscript><iframe src=\"//www.googletagmanager.com/ns.html?id=GTM-58VLKR\"\nheight=\"0\"
+        width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew
+        Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-58VLKR');</script>\n<!--
+        End Google Tag Manager -->\n <!-- /tag_block.block -->\n<div role=\"document\"
+        class=\"page\">\n\n\t\t<!--.l-header region -->\n<header role=\"banner\" class=\"l-header
+        group\">\n\n\n      <!--.top-bar -->\n    <div class=\"mobi-show top-mobi-bar\">\n
+        \     <nav class=\"mobile-nav \" data-options=\"\">\n\t\t\t\t<span class=\"nav-toggle\">\n\t\t\t\t\t<i
+        class=\"first\"></i>\n\t\t\t\t\t<i></i>\n\t\t\t\t\t<i class=\"last\"></i>\n\t\t\t\t</span>\n
+        \                 <ul id=\"main-menu\" class=\"main-nav left\"><li class=\"first
+        expanded has-dropdown\"><a href=\"/adopt\">Adopt</a><ul class=\"dropdown\"><li
+        class=\"first expanded show-for-small\"><a href=\"/adopt\">Adopt</a><li class=\"first
+        leaf\" title=\"\"><a href=\"/get-involved/adopt/pets?field_animal_species_tid_selective=958\"
+        title=\"\">Cats</a></li><li class=\"leaf\" title=\"\"><a href=\"/get-involved/adopt/pets?field_animal_species_tid_selective=963\"
+        title=\"\">Dogs</a></li><li class=\"expanded\"><a href=\"/adopt/specials\">Current
+        Adoption Specials</a></li><li class=\"leaf\"><a href=\"/node/201\">Ongoing
+        Adoption Specials</a></li><li class=\"leaf\"><a href=\"/adopt/adoption-centers\">Adoption
+        Centers</a></li><li class=\"leaf\"><a href=\"/mobileadoption\">Mobile Adoptions</a></li><li
+        class=\"last leaf\"><a href=\"/angelsofthecity\">Angels of the City</a></li></ul></li><li
+        class=\"expanded has-dropdown\"><a href=\"/fix-your-pet\">Fix Your Pet</a><ul
+        class=\"dropdown\"><li class=\"expanded show-for-small\"><a href=\"/fix-your-pet\">Fix
+        Your Pet</a><li class=\"first leaf\"><a href=\"/visit-us/where\">Where?</a></li><li
+        class=\"leaf\"><a href=\"/node/add/how-much\">How much?</a></li><li class=\"last
+        leaf\"><a href=\"/fix-your-pet/community-resources\">Community Resources</a></li></ul></li><li
+        class=\"expanded has-dropdown\"><a href=\"/about-us\">About Us</a><ul class=\"dropdown\"><li
+        class=\"expanded show-for-small\"><a href=\"/about-us\">About Us</a><li class=\"first
+        leaf\" title=\"\"><a href=\"http://la.bestfriends.org/about-us\" title=\"\">Our
+        Mission</a></li><li class=\"leaf\" title=\"\"><a href=\"http://la.bestfriends.org/nkla-no-kill-los-angeles\"
+        title=\"\">NKLA</a></li><li class=\"leaf\"><a href=\"/About-Us/Visiting\">Visit
+        &amp; Contact Us</a></li><li class=\"leaf\"><a href=\"/FAQs\">FAQ&#039;s</a></li><li
+        class=\"leaf\" title=\"\"><a href=\"http://bestfriends.org/Careers/Current-Job-Openings/\"
+        title=\"\">Careers</a></li><li class=\"leaf\"><a href=\"/about-us/our-sponsors\">Our
+        Sponsors</a></li><li class=\"last leaf\" title=\"\"><a href=\"/about-us/intakesoutcomes\"
+        title=\"\">Intakes/ Outcomes</a></li></ul></li><li class=\"expanded has-dropdown\"><a
+        href=\"/what-we-do\">What We Do</a><ul class=\"dropdown\"><li class=\"expanded
+        show-for-small\"><a href=\"/what-we-do\">What We Do</a><li class=\"first leaf\"><a
+        href=\"/nkla-no-kill-los-angeles\">NKLA (No-Kill Los Angeles)</a></li><li
+        class=\"leaf\"><a href=\"/what-we-do/lifesaving-kitten-nursery-0\">Lifesaving
+        Kitten Nursery</a></li><li class=\"leaf\"><a href=\"/catyoga\">Cat Yoga</a></li><li
+        class=\"leaf\"><a href=\"/petpreview\">Pet Preview</a></li><li class=\"leaf\"
+        title=\"\"><a href=\"/safeathome\" title=\"\">Safe At Home</a></li><li class=\"leaf\"><a
+        href=\"/purritos\">purritosLA</a></li><li class=\"leaf\"><a href=\"/workingcats\">Working
+        Cats</a></li><li class=\"leaf\"><a href=\"/class\">CLASS</a></li><li class=\"leaf\"><a
+        href=\"/what-we-do/exercise-buddies\">Exercise Buddies</a></li><li class=\"last
+        leaf\"><a href=\"/playgroups\">Playgroups</a></li></ul></li><li class=\"expanded
+        has-dropdown\"><a href=\"/get-involved\">Get Involved</a><ul class=\"dropdown\"><li
+        class=\"expanded show-for-small\"><a href=\"/get-involved\">Get Involved</a><li
+        class=\"first leaf\" title=\"\"><a href=\"/adopt\" title=\"\">Adopt</a></li><li
+        class=\"leaf\"><a href=\"/get-involved/donate\">Donate</a></li><li class=\"leaf\"><a
+        href=\"/foster\">Foster</a></li><li class=\"expanded has-dropdown\"><a href=\"/volunteer\">Volunteer</a><ul
+        class=\"dropdown\"><li class=\"expanded show-for-small\"><a href=\"/volunteer\">Volunteer</a><li
+        class=\"first last leaf\"><a href=\"/volunteer/celebrating-our-volunteers\">Celebrating
+        our Volunteers</a></li></ul></li><li class=\"last leaf\" title=\"\"><a href=\"/fix-your-pet\"
+        title=\"\">Fix Your Pet</a></li></ul></li><li class=\"expanded has-dropdown\"><a
+        href=\"/events\">Events</a><ul class=\"dropdown\"><li class=\"expanded show-for-small\"><a
+        href=\"/events\">Events</a><li class=\"first leaf\" title=\"\"><a href=\"http://la.bestfriends.org/adopt/citywide-super-adoption\"
+        title=\"\">Citywide Super Adoption</a></li><li class=\"leaf\"><a href=\"/strut2017\">Strut
+        Your Mutt this October!</a></li><li class=\"last leaf\"><a href=\"/NKLA-Super-Adoption\">NKLA
+        Super Adoption</a></li></ul></li><li class=\"expanded has-dropdown\" title=\"\"><a
+        href=\"/news\" title=\"\">News</a><ul class=\"dropdown\"><li class=\"expanded
+        show-for-small\"><a href=\"/news\" title=\"\">News</a><li class=\"first last
+        leaf\"><a href=\"/news/our-best-friends\">Our &quot;Best Friends&quot;</a></li></ul></li><li
+        class=\"last leaf\" title=\"Low cost services, financial assistance, and pet
+        care resources\"><a href=\"/resources\" title=\"Low cost services, financial
+        assistance, and pet care resources\">Resources</a></li></ul>              </nav>\n
+        \     <div id=\"search-mobile\">\n        <script>\n          (function ()
+        {\n            var cx = '015306380900599985506:v053ywnl8m0';\n            var
+        gcse = document.createElement('script');\n            gcse.type = 'text/javascript';\n
+        \           gcse.async = true;\n            gcse.src = (document.location.protocol
+        == 'https:' ? 'https:' : 'http:') +\n              '//www.google.com/cse/cse.js?cx='
+        + cx;\n            var s = document.getElementsByTagName('script')[0];\n            s.parentNode.insertBefore(gcse,
+        s);\n          })();\n        </script>\n        <gcse:searchbox-only resultsUrl=\"/search/google\"
+        queryParameterName=\"search\"></gcse:searchbox-only>\n      </div>\n    </div>\n\n
+        \   <!--/.top-bar -->\n  \n\n  <header class=\"header-wrap\">\n    <section
+        class=\"bc-row\">\n      <div class=\"span5\">\n        <a href=\"/\" rel=\"home\"
+        title=\"Best Friends Animal Society Home\"\n           class=\"active\">\n
+        \         <div id=\"logo\" class=\"\">\n\n\n          </div>\n        </a>\n
+        \       <div id=\"branding\" class=\"\">\n                                    <div
+        id=\"site-name\">\n                <strong>\n                  <a href=\"/\"\n
+        \                    title=\"Home\" rel=\"home\"><span>Best Friends<sup>&reg;</sup></span></a>\n
+        \               </strong>\n              </div>\n                                            <div
+        id=\"chapter-name\">\n              Best Friends in Los Angeles            </div>\n
+        \                               <h2 title=\"Save Them All\" class=\"site-slogan\">Save\n
+        \             them all\n              <super>&reg;</super>\n            </h2>\n
+        \                 </div>\n      </div>\n      <div class=\"span7 l\">\n        <!--
+        TOP -->\n        <div class=\"header-top\">\n                      <nav id=\"secondary-menu\"
+        class=\"navigation mobi-hide\"\n                 role=\"navigation\">\n              <ul
+        class=\"menu\"><li class=\"first last expanded\"><a href=\"/about-us\">About
+        Us</a><ul class=\"menu\"><li class=\"first leaf\"><a href=\"http://la.bestfriends.org/about-us\"
+        title=\"\">Our Mission</a></li>\n<li class=\"leaf\"><a href=\"http://la.bestfriends.org/nkla-no-kill-los-angeles\"
+        title=\"\">NKLA</a></li>\n<li class=\"leaf\"><a href=\"/About-Us/Visiting\">Visit
+        &amp; Contact Us</a></li>\n<li class=\"leaf\"><a href=\"/FAQs\">FAQ&#039;s</a></li>\n<li
+        class=\"leaf\"><a href=\"http://bestfriends.org/Careers/Current-Job-Openings/\"
+        title=\"\">Careers</a></li>\n<li class=\"leaf\"><a href=\"/about-us/our-sponsors\">Our
+        Sponsors</a></li>\n<li class=\"last leaf\"><a href=\"/about-us/intakesoutcomes\"
+        title=\"\">Intakes/ Outcomes</a></li>\n</ul></li>\n</ul>            </nav>
+        <!-- /#secondary-menu -->\n                    <!-- SEARCH BOX -->\n          <div
+        id=\"search\" class=\"mobi-hide\">\n            <script>\n              (function
+        () {\n                var cx = '015306380900599985506:v053ywnl8m0';\n                var
+        gcse = document.createElement('script');\n                gcse.type = 'text/javascript';\n
+        \               gcse.async = true;\n                gcse.src = (document.location.protocol
+        == 'https:' ? 'https:' : 'http:') +\n                  '//www.google.com/cse/cse.js?cx='
+        + cx;\n                var s = document.getElementsByTagName('script')[0];\n
+        \               s.parentNode.insertBefore(gcse, s);\n              })();\n
+        \           </script>\n            <gcse:searchbox-only resultsUrl=\"/search/google\"
+        queryParameterName=\"search\"></gcse:searchbox-only>\n          </div>\n          <div
+        id=\"social-nav\">\n            <ul id=\"social\">\n                              <li
+        id=\"facebook\"><a\n                    href=\"https://www.facebook.com/bestfriendsanimalsocietyLA
+        \"\n                    target=\"_blank\">Facebook</a></li>\n                                            <li
+        id=\"twitter\"><a\n                    href=\"https://twitter.com/BFAS_LA\"\n
+        \                   target=\"_blank\">Twitter</a></li>\n                                            <li
+        id=\"instagram\"><a\n                    href=\"http://instagram.com/bfas_la\"\n
+        \                   target=\"_blank\">Instagram</a></li>\n                                            <li
+        id=\"youtube\"><a\n                    href=\"https://www.youtube.com/user/BestFriendsVideos\"\n
+        \                   target=\"_blank\">Youtube</a></li>\n                          </ul>\n
+        \         </div>\n                      <a href=\"http://support.bestfriends.org/site/Donation2?df_id=1750&mfc_pref=T&1750.donation=form1\"
+        target=\"_blank\">\n              <div id=\"donate\"></div>\n            </a>\n
+        \                 </div>\n        <!-- BOTTOM -->\n        <div class=\"mobi-hide\">\n
+        \                     <nav id=\"main-menu\" class=\"navigation\" role=\"navigation\">\n
+        \             <ul class=\"menu\"><li class=\"first expanded\"><a href=\"/adopt\">Adopt</a><ul
+        class=\"menu\"><li class=\"first leaf\"><a href=\"/get-involved/adopt/pets?field_animal_species_tid_selective=958\"
+        title=\"\">Cats</a></li>\n<li class=\"leaf\"><a href=\"/get-involved/adopt/pets?field_animal_species_tid_selective=963\"
+        title=\"\">Dogs</a></li>\n<li class=\"collapsed\"><a href=\"/adopt/specials\">Current
+        Adoption Specials</a></li>\n<li class=\"leaf\"><a href=\"/node/201\">Ongoing
+        Adoption Specials</a></li>\n<li class=\"leaf\"><a href=\"/adopt/adoption-centers\">Adoption
+        Centers</a></li>\n<li class=\"leaf\"><a href=\"/mobileadoption\">Mobile Adoptions</a></li>\n<li
+        class=\"last leaf\"><a href=\"/angelsofthecity\">Angels of the City</a></li>\n</ul></li>\n<li
+        class=\"expanded\"><a href=\"/fix-your-pet\">Fix Your Pet</a><ul class=\"menu\"><li
+        class=\"first leaf\"><a href=\"/visit-us/where\">Where?</a></li>\n<li class=\"leaf\"><a
+        href=\"/node/add/how-much\">How much?</a></li>\n<li class=\"last leaf\"><a
+        href=\"/fix-your-pet/community-resources\">Community Resources</a></li>\n</ul></li>\n<li
+        class=\"expanded\"><a href=\"/what-we-do\">What We Do</a><ul class=\"menu\"><li
+        class=\"first leaf\"><a href=\"/nkla-no-kill-los-angeles\">NKLA (No-Kill Los
+        Angeles)</a></li>\n<li class=\"leaf\"><a href=\"/what-we-do/lifesaving-kitten-nursery-0\">Lifesaving
+        Kitten Nursery</a></li>\n<li class=\"leaf\"><a href=\"/catyoga\">Cat Yoga</a></li>\n<li
+        class=\"leaf\"><a href=\"/petpreview\">Pet Preview</a></li>\n<li class=\"leaf\"><a
+        href=\"/safeathome\" title=\"\">Safe At Home</a></li>\n<li class=\"leaf\"><a
+        href=\"/purritos\">purritosLA</a></li>\n<li class=\"leaf\"><a href=\"/workingcats\">Working
+        Cats</a></li>\n<li class=\"leaf\"><a href=\"/class\">CLASS</a></li>\n<li class=\"leaf\"><a
+        href=\"/what-we-do/exercise-buddies\">Exercise Buddies</a></li>\n<li class=\"last
+        leaf\"><a href=\"/playgroups\">Playgroups</a></li>\n</ul></li>\n<li class=\"expanded\"><a
+        href=\"/get-involved\">Get Involved</a><ul class=\"menu\"><li class=\"first
+        leaf\"><a href=\"/adopt\" title=\"\">Adopt</a></li>\n<li class=\"leaf\"><a
+        href=\"/get-involved/donate\">Donate</a></li>\n<li class=\"leaf\"><a href=\"/foster\">Foster</a></li>\n<li
+        class=\"collapsed\"><a href=\"/volunteer\">Volunteer</a></li>\n<li class=\"last
+        leaf\"><a href=\"/fix-your-pet\" title=\"\">Fix Your Pet</a></li>\n</ul></li>\n<li
+        class=\"expanded\"><a href=\"/events\">Events</a><ul class=\"menu\"><li class=\"first
+        leaf\"><a href=\"http://la.bestfriends.org/adopt/citywide-super-adoption\"
+        title=\"\">Citywide Super Adoption</a></li>\n<li class=\"leaf\"><a href=\"/strut2017\">Strut
+        Your Mutt this October!</a></li>\n<li class=\"last leaf\"><a href=\"/NKLA-Super-Adoption\">NKLA
+        Super Adoption</a></li>\n</ul></li>\n<li class=\"expanded\"><a href=\"/news\"
+        title=\"\">News</a><ul class=\"menu\"><li class=\"first last leaf\"><a href=\"/news/our-best-friends\">Our
+        &quot;Best Friends&quot;</a></li>\n</ul></li>\n<li class=\"last leaf\"><a
+        href=\"/resources\" title=\"Low cost services, financial assistance, and pet
+        care resources\">Resources</a></li>\n</ul>            </nav> <!-- /#main-menu
+        -->\n                  </div>\n      </div>\n    </section>\n  </header>\n</header>\n<!--/.l-header
+        -->  <main role=\"main\" class=\"l-main\">\n\n\t\t\t\n   \n     \t<div class=\"row\">\n
+        \ \t\t  \t\t<div id=\"before-content\" class=\"columns medium-12 small-12\">\n
+        \   \t<h2 class=\"element-invisible\">You are here</h2><ul class=\"breadcrumbs\"><li><a
+        href=\"/\">Home</a></li><li><a href=\"/get-involved\">Get Involved</a></li><li><a
+        href=\"/get-involved/adopt\">Adopt</a></li><li><a href=\"/get-involved/adopt/pets\">Adoptable
+        Pets</a></li><li class=\"current\"><a href=\"#\">Toad</a></li></ul>     <div
+        class=\"row\">\n     \t<div class=\"columns medium-6\">\n\t\t\t\t\t\t\t                  <h1
+        id=\"page-title\" class=\"title\">Toad</h1>\n                      </div>\n
+        \     <div class=\"columns medium-6\">\n\t      \n<div class=\"share-page-block\">\n\t<a
+        target=\"_blank\" class=\"f-share-btn\" href=\"https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fla.bestfriends.org%3A443%2Fget-involved%2Fadopt%2Fpet%2F12505223\">fbook</a>\n\t<a
+        target=\"_blank\" class=\"tweet-btn\" href=\"https://twitter.com/share?url=https%3A%2F%2Fla.bestfriends.org%3A443%2Fget-involved%2Fadopt%2Fpet%2F12505223&text=Toad\">Tweet</a>\n\t<div
+        class=\"pin-btn\">\n\t\t<a href=\"http://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fla.bestfriends.org%3A443%2Fget-involved%2Fadopt%2Fpet%2F12505223&description=Toad\"
+        >pinterest</a>\n\t</div>\n\t<a href=\"mailto:?subject=Toad&body=https://la.bestfriends.org:443/get-involved/adopt/pet/12505223\"
+        class=\"mail-btn\">mail</a>\n\t<a href=\"javascript:window.print()\" class=\"print-btn\">print</a>\n\t<a
+        href=\"#\" class=\"plus-btn\">+</a>\n\n\t<div class=\"plus-container\">\n\t\t<a
+        class=\"gplus-btn\" href=\"https://plus.google.com/share?url=https%3A%2F%2Fla.bestfriends.org%3A443%2Fget-involved%2Fadopt%2Fpet%2F12505223\"
+        onclick=\"javascript:window.open(this.href,\n\t\t\t\t\t\t  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return
+        false;\">google plus</a>\n\t\t<a href=\"http://www.linkedin.com/shareArticle?mini=true&url=https://la.bestfriends.org:443/get-involved/adopt/pet/12505223&title=Toad\"
+        class=\"linkedin-btn\">LinkedIn</a>\n\t</div>\n\n\n</div>\n      </div>\n
+        \    </div>\n    </div>\n    \n    <div class=\"large-9 push-3 small-12 main
+        columns\">\n\t\t\t<nav class=\"mobile-second-nav\">\n\t\t    Main menu\t\t\t</nav>\n\n
+        \     \n      <a id=\"main-content\"></a>\n\n\n                            \n
+        \     \n        \n      \n      <article id=\"node-13719\" class=\"node node-nk-animal
+        node-promoted view-mode-full petpoint-pet\">\n  <section class=\"pet-card\">\n
+        \                         <div class=\"card__photo\">\n        <img src=\"https://s3.amazonaws.com/filestore.rescuegroups.org/6764/pictures/animals/12505/12505223/54058607_420x420.jpg\">\n
+        \     </div>\n        <div class=\"card__info\">\n      <h3 class=\"petpoint-pet-name\">\n
+        \       Toad      </h3>\n              <div class=\"pat-point-pet-id\">\n
+        \         <div class=\"label\">ID:</div>\n          <div class=\"info\">35279849</div>\n
+        \       </div>\n                                <div class=\"petpoint-pet-sex\">\n
+        \         <div class=\"label\">Sex:</div>\n          <div class=\"info\">Male</div>\n
+        \       </div>\n                    <div class=\"petpoint-pet-age\">\n          <div
+        class=\"label\">Age:</div>\n          <div class=\"info\">\n            10
+        months 3 weeks          </div>\n        </div>\n                    <div class=\"petpoint-pet-age\">\n
+        \         <div class=\"label\">General Age:</div>\n          <div class=\"info\">\n
+        \           Young          </div>\n        </div>\n                    <div
+        class=\"petpoint-pet-color\">\n          <div class=\"label\">Color:</div>\n
+        \         <div class=\"info\">Gray</div>\n        </div>\n                    <div
+        class=\"petpoint-pet-weight\">\n          <div class=\"label\">Weight:</div>\n
+        \         <div class=\"info\">0 pounds</div>\n        </div>\n                    <div
+        class=\"petpoint-pet-weight\">\n          <div class=\"label\">Size:</div>\n
+        \         <div class=\"info\">Small</div>\n        </div>\n          </div>\n
+        \ </section>\n  <section class=\"pet-other-info\">\n          <div class=\"other-info__photos\">\n
+        \                                     </div>\n        <section class=\"other-info__info\">\n
+        \     <section class=\"pet-adopt-info\">\n        <h3>Adoption Info</h3>\n
+        \                 <div class=\"petpoint-pet-shelter\">\n            <p>\n
+        \                             <span class=\"shelter_url shelter_name\"><a
+        href=\"http://nkla.org\" target=\"_blank\">No Kill Los Angeles</a></span><br>\n
+        \                                           <span class=\"shelter_address\">1845
+        Pontius Ave</span><br>\n                                            <span
+        class=\"shelter_city\">Los Angeles</span>\n                                            <span
+        class=\"shelter_state\">, CA</span><br>\n                                                          <span
+        class=\"shelter_phone\">(424) 208-8840</span><br>\n                                            <span
+        class=\"shelter_email\"><a href=\"mailto:adopt@nkla.org?Subject=Adopt Toad
+        - ID 35279849\">adopt@nkla.org</a></span><br>\n              \n            </p>\n
+        \         </div>\n              </section>\n                </section>\n\n
+        \ </section>\n    \n          \n    </article>  \n    </div>\n    <!--/.main
+        region -->\n\n          <aside role=\"complementary\" class=\"large-3 pull-9
+        small-12 sidebar-first columns sidebar\">\n            <section class=\"block
+        block-bf block-bf-feature-callout clearfix\">\n\n      \n      <div class=\"callout\">\n
+        <div class=\"image-container\">\n  <a href=\"http://la.bestfriends.org/get-involved/adopt/pets\"
+        target = \"_blank\"><img src=\"https://1402452014-local-prog-la-prod.s3.amazonaws.com/styles/feature_callout/s3/managed/callout/ChaseAndCooper-IMG_3200-LF%20%281%29.jpg?itok=H744TCyf\"
+        width=\"300\" height=\"150\" alt=\"\" /></a>\n </div>\n <div class=\"text-container\">\n
+        \ <h3><a href=\"http://la.bestfriends.org/get-involved/adopt/pets\" target
+        = \"_blank\">Find a Pet!</a></h3>\n  <p class=\"description\">Search our adorable
+        and adoptable pets!</p>\n </div>\n</div>\n\n\n<div class=\"callout\">\n <div
+        class=\"image-container\">\n  <a href=\"http://la.bestfriends.org/fix-your-pet\"
+        ><img src=\"https://1402452014-local-prog-la-prod.s3.amazonaws.com/styles/feature_callout/s3/managed/callout/dalmation-cat.png?itok=6mYrxZu_\"
+        width=\"300\" height=\"150\" alt=\"\" /></a>\n </div>\n <div class=\"text-container\">\n
+        \ <h3><a href=\"http://la.bestfriends.org/fix-your-pet\" >Community resources
+        for fixing your pet</a></h3>\n  <p class=\"description\">Low cost spay and
+        neuter services.</p>\n </div>\n</div>\n\n\n<div class=\"callout\">\n <div
+        class=\"image-container\">\n  <a href=\"http://bestfriendsla.org/angelsofthecity\"
+        target = \"_blank\"><img src=\"https://1402452014-local-prog-la-prod.s3.amazonaws.com/styles/feature_callout/s3/managed/callout/City-of-Angels-Collage_300X380_0.gif?itok=C0bKjrJU\"
+        width=\"300\" height=\"150\" alt=\"\" /></a>\n </div>\n <div class=\"text-container\">\n
+        \ <h3><a href=\"http://bestfriendsla.org/angelsofthecity\" target = \"_blank\">Angels
+        of the City</a></h3>\n  <p class=\"description\">Meet some very special cats
+        and dogs that have won the hearts of our staff and volunteers</p>\n </div>\n</div>\n\n\n
+        \ \n</section>      </aside>\n    \n       </div>\n  </main>\n  <!--/.main-->\n\n\t\t<!--.l-footer-->\n<footer
+        class=\"l-footer\" role=\"contentinfo\">\n  <div id=\"footer-before\">\n    <div
+        class=\"row\">\n      <div class=\"columns medium-7\">\n        <div id=\"footer-slogan\">\n
+        \         <div id=\"site-name-footer\">\n            <strong>\n              <span>Best
+        Friends Animal Society<sup>&reg;</sup></span>\n            </strong>\n          </div>\n
+        \         <span id=\"go-to\">Go To <a href=\"http://www.BestFriends.Org\"\n
+        \                                   target=\"_blank\">BestFriends.Org</a></span>\n
+        \       </div>\n      </div>\n      <div class=\"columns medium-5\" id=\"email-signup\">\n
+        \       <a id=\"email-btn\" href=\"https://secure.bestfriends.org/page/s/bfla-signup\"\n
+        \          target=\"_blank\">Email Sign Up</a>\n\n        <p>Receive information
+        and updates on all things Best Friends.</p>\n      </div>\n    </div>\n  </div>\n
+        \ <div class=\"row\" id=\"footer-after\">\n    <div class=\"columns large-8
+        medium-7\">\n              <div class=\"footer-menu-cols\">\n          <ul
+        class=\"menu\"><li class=\"first expanded\"><a href=\"/adopt\">Adopt</a><ul
+        class=\"menu\"><li class=\"first leaf\"><a href=\"/get-involved/adopt/pets?field_animal_species_tid_selective=958\"
+        title=\"\">Cats</a></li>\n<li class=\"leaf\"><a href=\"/get-involved/adopt/pets?field_animal_species_tid_selective=963\"
+        title=\"\">Dogs</a></li>\n<li class=\"collapsed\"><a href=\"/adopt/specials\">Current
+        Adoption Specials</a></li>\n<li class=\"leaf\"><a href=\"/node/201\">Ongoing
+        Adoption Specials</a></li>\n<li class=\"leaf\"><a href=\"/adopt/adoption-centers\">Adoption
+        Centers</a></li>\n<li class=\"leaf\"><a href=\"/mobileadoption\">Mobile Adoptions</a></li>\n<li
+        class=\"last leaf\"><a href=\"/angelsofthecity\">Angels of the City</a></li>\n</ul></li>\n<li
+        class=\"expanded\"><a href=\"/fix-your-pet\">Fix Your Pet</a><ul class=\"menu\"><li
+        class=\"first leaf\"><a href=\"/visit-us/where\">Where?</a></li>\n<li class=\"leaf\"><a
+        href=\"/node/add/how-much\">How much?</a></li>\n<li class=\"last leaf\"><a
+        href=\"/fix-your-pet/community-resources\">Community Resources</a></li>\n</ul></li>\n<li
+        class=\"expanded\"><a href=\"/about-us\">About Us</a><ul class=\"menu\"><li
+        class=\"first leaf\"><a href=\"http://la.bestfriends.org/about-us\" title=\"\">Our
+        Mission</a></li>\n<li class=\"leaf\"><a href=\"http://la.bestfriends.org/nkla-no-kill-los-angeles\"
+        title=\"\">NKLA</a></li>\n<li class=\"leaf\"><a href=\"/About-Us/Visiting\">Visit
+        &amp; Contact Us</a></li>\n<li class=\"leaf\"><a href=\"/FAQs\">FAQ&#039;s</a></li>\n<li
+        class=\"leaf\"><a href=\"http://bestfriends.org/Careers/Current-Job-Openings/\"
+        title=\"\">Careers</a></li>\n<li class=\"leaf\"><a href=\"/about-us/our-sponsors\">Our
+        Sponsors</a></li>\n<li class=\"last leaf\"><a href=\"/about-us/intakesoutcomes\"
+        title=\"\">Intakes/ Outcomes</a></li>\n</ul></li>\n<li class=\"last expanded\"><a
+        href=\"/what-we-do\">What We Do</a><ul class=\"menu\"><li class=\"first leaf\"><a
+        href=\"/nkla-no-kill-los-angeles\">NKLA (No-Kill Los Angeles)</a></li>\n<li
+        class=\"leaf\"><a href=\"/what-we-do/lifesaving-kitten-nursery-0\">Lifesaving
+        Kitten Nursery</a></li>\n<li class=\"leaf\"><a href=\"/catyoga\">Cat Yoga</a></li>\n<li
+        class=\"leaf\"><a href=\"/petpreview\">Pet Preview</a></li>\n<li class=\"leaf\"><a
+        href=\"/safeathome\" title=\"\">Safe At Home</a></li>\n<li class=\"leaf\"><a
+        href=\"/purritos\">purritosLA</a></li>\n<li class=\"leaf\"><a href=\"/workingcats\">Working
+        Cats</a></li>\n<li class=\"leaf\"><a href=\"/class\">CLASS</a></li>\n<li class=\"leaf\"><a
+        href=\"/what-we-do/exercise-buddies\">Exercise Buddies</a></li>\n<li class=\"last
+        leaf\"><a href=\"/playgroups\">Playgroups</a></li>\n</ul></li>\n</ul>        </div>\n
+        \       <div class=\"footer-menu-cols\">\n          <ul class=\"menu\"><li
+        class=\"first expanded\"><a href=\"/get-involved\">Get Involved</a><ul class=\"menu\"><li
+        class=\"first leaf\"><a href=\"/adopt\" title=\"\">Adopt</a></li>\n<li class=\"leaf\"><a
+        href=\"/get-involved/donate\">Donate</a></li>\n<li class=\"leaf\"><a href=\"/foster\">Foster</a></li>\n<li
+        class=\"collapsed\"><a href=\"/volunteer\">Volunteer</a></li>\n<li class=\"last
+        leaf\"><a href=\"/fix-your-pet\" title=\"\">Fix Your Pet</a></li>\n</ul></li>\n<li
+        class=\"expanded\"><a href=\"/events\">Events</a><ul class=\"menu\"><li class=\"first
+        leaf\"><a href=\"http://la.bestfriends.org/adopt/citywide-super-adoption\"
+        title=\"\">Citywide Super Adoption</a></li>\n<li class=\"leaf\"><a href=\"/strut2017\">Strut
+        Your Mutt this October!</a></li>\n<li class=\"last leaf\"><a href=\"/NKLA-Super-Adoption\">NKLA
+        Super Adoption</a></li>\n</ul></li>\n<li class=\"expanded\"><a href=\"/news\"
+        title=\"\">News</a><ul class=\"menu\"><li class=\"first last leaf\"><a href=\"/news/our-best-friends\">Our
+        &quot;Best Friends&quot;</a></li>\n</ul></li>\n<li class=\"last leaf\"><a
+        href=\"/resources\" title=\"Low cost services, financial assistance, and pet
+        care resources\">Resources</a></li>\n</ul>        </div>\n          </div>\n
+        \   <div class=\"columns large-4 medium-5\">\n      <div class=\"meta-blocks\">\n
+        \       <div itemscope itemtype=\"http://schema.org/Organization\">\n        <h2><span
+        itemprop=\"name\">Best Friends in Los Angeles</span></h2>\n          <div
+        itemprop=\"address\" itemscope itemtype=\"http://schema.org/PostalAddress\">\n
+        \           <address>\n              <span itemprop=\"streetAddress\">15321
+        Brand Blvd</span><br />\n                            <span itemprop=\"addressLocality\">Mission
+        Hills,</span>\n              <span itemprop=\"addressRegion\">CA </span>\n
+        \             <span itemprop=\"postalCode\">91345</span>\n                              <br
+        /><span>P: <span itemprop=\"telephone\">818.643.3989</span></span><br />\n
+        \                                           <span>F: <span itemprop=\"faxNumber\">818.837.2029</span></span><br
+        />\n                                            <span>E: <a\n                    href=\"mailto:bestfriendsla@bestfriends.org\"><span
+        itemprop=\"email\">bestfriendsla@bestfriends.org</span></a></span><br />\n
+        \                         </address>\n            </div>\n        </div>\n
+        \     </div>\n              <div class=\"meta-blocks\">\n          <h2>Our
+        Social Channels</h2>\n          <ul id=\"footer-social\">\n                          <li
+        id=\"facebook\"><a\n                  href=\"https://www.facebook.com/bestfriendsanimalsocietyLA\"\n
+        \                 target=\"_blank\">Facebook</a></li>\n                                      <li
+        id=\"twitter\"><a\n                  href=\"https://twitter.com/BFAS_LA\"\n
+        \                 target=\"_blank\">Twitter</a></li>\n                                      <li
+        id=\"instagram\"><a\n                  href=\"http://instagram.com/bfas_la\"\n
+        \                 target=\"_blank\">Instagram</a></li>\n                                      <li
+        id=\"youtube\"><a\n                  href=\"https://www.youtube.com/user/BestFriendsVideos\"\n
+        \                 target=\"_blank\">Youtube</a></li>\n                      </ul>\n
+        \       </div>\n                    <div class=\"meta-blocks\">\n          <div
+        itemscope itemtype=\"http://schema.org/LocalBusiness\">\n            <h2>Hours</h2>\n
+        \           <span itemprop=\"openingHours\">Adoption Center Hours:<br />\r\nOpen
+        Daily Noon to 8 pm<br />\r\n<br />\r\nAsk us about our daily adoption specials!<br
+        />\r\n<br />\r\nClinic Hours:<br />\r\nEveryday <br />\r\n6:30 am to 4:00
+        pm<br />\r\n*Spay/neuter surgery by appointment<br />\r\n <br />\r\nVaccine
+        Clinic:<br />\r\nEveryday<br />\r\n9:00 am to 4:00 pm<br />\r\n<br />\r\nWellness
+        Clinic:<br />\r\nSunday to Monday<br />\r\n9:00 am to 5:00 pm<br />\r\n<br
+        />\r\nFor more information please call 310-574-5555.<br />\r\n<br />\r\nBest
+        Friends, a 501(c)(3) nonprofit organization, operates the nation's largest
+        sanctuary for homeless animals; provides adoption, spay/neuter, and educational
+        programs.</span>\n          </div>\n        </div>\n      \n    </div>\n    <hr/>\n
+        \   <div class=\"columns large-8 medium-8 medium-push-4 small-12\"\n         id=\"footer-meta-links\">\n
+        \         </div>\n              <div class=\"columns large-12\" id=\"footer-logos\">\n
+        \         <p><a href=\"https://www.charitywatch.org/ratings-and-metrics/best-friends-animal-society/50\"
+        rel=\"nofollow\" target=\"_blank\"><img alt=\"Charity Watch Top Rated\" src=\"https://1402452014-local-prog-la-prod.s3.amazonaws.com/CharityWatch.png\"
+        style=\"width: 95px; margin-right: 12px; margin-left: 12px; margin-bottom:
+        20px; height: 85px;\" title=\"Charity Watch Top Rated\" /></a><a href=\"http://greatnonprofits.org/org/best-friends-animal-society\"
+        rel=\"nofollow\" target=\"_blank\"><img alt=\"2015 Top Rated Nonprofit\" src=\"https://1402452014-local-prog-la-prod.s3.amazonaws.com/greatnonprofits2016.png\"
+        style=\"width: 95px; margin-right: 12px; margin-left: 12px; margin-bottom:
+        20px; height: 81px;\" title=\"2015 Top Rated Nonprofit\" /></a><img alt=\"GuideStar\"
+        src=\"https://1402452014-local-prog-la-prod.s3.amazonaws.com/guidestar_plat.png\"
+        style=\"width: 95px; margin-right: 12px; margin-left: 12px; margin-bottom:
+        20px; height: 85px;\" title=\"GuideStar\" /><a href=\"http://shelteranimalscount.org/\"
+        rel=\"nofollow\" target=\"_blank\"><img alt=\"Shelter Animals Count Platinum
+        Sponsor\" src=\"https://1402452014-local-prog-la-prod.s3.amazonaws.com/shelter_animals_count_plat.png\"
+        style=\"width: 95px; margin-right: 12px; margin-left: 12px; margin-bottom:
+        20px; height: 85px;\" title=\"Shelter Animals Count Platinum Sponsor\" /></a></p>\n
+        \       </div>\n        </div>\n</footer>\n<div id=\"myModal\" class=\"reveal-modal
+        small\" data-reveal>\n  <!--    <img src=\"-->\n  <!--/images/content/charity-watched.png\"
+        />-->\n  <p>Of the over five-hundred charities currently rated by CharityWatch,
+        only a\n    select number qualify for the listing of Top-Rated charities based
+        on their\n    rigorous standards. Groups that merit Top-Rated status are highly
+        efficient,\n    do not hold excessive assets in reserve, and receive \"open-book\"
+        status for\n    disclosure of basic financial information and documents to
+        CharityWatch.</p>\n  <a class=\"close-reveal-modal\">&#215;</a>\n</div>\n\n<!--/.footer-->\n\n
+        \ </div>\n<!--/.page -->\n    <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>\n<script
+        src=\"https://la.bestfriends.org/misc/jquery.once.js?v=1.2\"></script>\n<script
+        src=\"https://la.bestfriends.org/misc/drupal.js?p0arrh\"></script>\n<script
+        src=\"https://la.bestfriends.org/sites/all/themes/bf_zurb/js/vendor/custom.modernizr.js?p0arrh\"></script>\n<script
+        src=\"https://la.bestfriends.org/sites/all/themes/bf_zurb/js/foundation.min.js?p0arrh\"></script>\n<script
+        src=\"https://la.bestfriends.org/sites/all/themes/bf_zurb/js/vendor/jquery.flexslider.js?p0arrh\"></script>\n<script
+        src=\"https://la.bestfriends.org/sites/all/themes/bf_zurb/js/vendor/jSlider.js?p0arrh\"></script>\n<script
+        src=\"https://la.bestfriends.org/sites/all/themes/bf_zurb/js/scripts.js?p0arrh\"></script>\n<script
+        src=\"https://la.bestfriends.org/sites/all/themes/bf_zurb/js/petslide.js?p0arrh\"></script>\n<script>jQuery.extend(Drupal.settings,
+        {\"basePath\":\"\\/\",\"pathPrefix\":\"\",\"ajaxPageState\":{\"theme\":\"bf_zurb\",\"theme_token\":\"ZTQadGimcEt9w-NW0VYHEj-PE20njFab4hqGK0-Oe2k\",\"js\":{\"misc\\/jquery.js\":1,\"misc\\/jquery.once.js\":1,\"misc\\/drupal.js\":1,\"sites\\/all\\/themes\\/bf_zurb\\/js\\/vendor\\/custom.modernizr.js\":1,\"sites\\/all\\/themes\\/bf_zurb\\/js\\/foundation.min.js\":1,\"sites\\/all\\/themes\\/bf_zurb\\/js\\/vendor\\/jquery.flexslider.js\":1,\"sites\\/all\\/themes\\/bf_zurb\\/js\\/vendor\\/jSlider.js\":1,\"sites\\/all\\/themes\\/bf_zurb\\/js\\/scripts.js\":1,\"sites\\/all\\/themes\\/bf_zurb\\/js\\/petslide.js\":1},\"css\":{\"sites\\/all\\/modules\\/contrib\\/date\\/date_api\\/date.css\":1,\"sites\\/all\\/modules\\/contrib\\/date\\/date_popup\\/themes\\/datepicker.1.7.css\":1,\"modules\\/field\\/theme\\/field.css\":1,\"sites\\/all\\/modules\\/contrib\\/views\\/css\\/views.css\":1,\"sites\\/all\\/modules\\/contrib\\/ckeditor\\/css\\/ckeditor.css\":1,\"\\/\\/maxcdn.bootstrapcdn.com\\/font-awesome\\/4.3.0\\/css\\/font-awesome.min.css\":1,\"sites\\/all\\/modules\\/contrib\\/ctools\\/css\\/ctools.css\":1,\"sites\\/all\\/modules\\/contrib\\/node_embed\\/plugins\\/node_embed\\/node_embed.css\":1,\"sites\\/all\\/themes\\/zurb-foundation\\/css\\/normalize.css\":1,\"sites\\/all\\/themes\\/zurb-foundation\\/css\\/foundation.min.css\":1,\"sites\\/all\\/themes\\/bf_zurb\\/css\\/custom.css\":1,\"sites\\/all\\/themes\\/bf_zurb\\/css\\/print.css\":1}}});</script>\n\t<script
+        type=\"text/javascript\" src=\"//assets.pinterest.com/js/pinit.js\"></script>\n<script
+        type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"c72fbe0d5a\",\"applicationID\":\"43292801\",\"transactionName\":\"ZQBVZEcAWEYDWkVbDlxKdlNBCFlbTVdeVgRtFVZXUD5AXAdO\",\"queueTime\":0,\"applicationTime\":500,\"atts\":\"SUdWEg8aS0g=\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"\"}</script></body>\n\n</html>\n"
+    http_version: 
+  recorded_at: Thu, 25 Jan 2018 06:59:56 GMT
 recorded_with: VCR 4.0.0
