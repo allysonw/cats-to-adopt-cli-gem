@@ -43,4 +43,4 @@ class CatsToAdopt::Cat
     end
   end
 
-end
+end # end Cat class

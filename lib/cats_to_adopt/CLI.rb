@@ -1,4 +1,3 @@
-# CLI Controller
 class CatsToAdopt::CLI
 
   BASE_PATH = "https://la.bestfriends.org/get-involved/adopt/"
@@ -45,7 +44,6 @@ class CatsToAdopt::CLI
     def goodbye
       puts "\nGoodbye!"
     end
-
   end
 
-end
+end # end CLI class

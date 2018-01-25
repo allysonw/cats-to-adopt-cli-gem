@@ -1,7 +1,7 @@
 class CatsToAdopt::Scraper
 
   # for each cat on the main page, scrapes the page for the cat's data and
-  # instantiates a Cat object with that data. Returns an array of Cat objects with several # the basic attributes assigned.
+  # instantiates a Cat object with that data.
   def self.scrape_main_page(main_page_url)
 
     main_page = Nokogiri::HTML(open(main_page_url))
@@ -16,7 +16,8 @@ class CatsToAdopt::Scraper
     end
   end
 
-  # given a cat's profile page URL, scrapes the cat's profile page and returns a hash of additional attributes for that cat
+  # given a cat's profile page URL, scrapes the cat's profile page and returns a
+  # hash of additional attributes for that cat
   def self.scrape_profile_page(profile_url)
     profile_page = Nokogiri::HTML(open(profile_url))
     attributes = {}
