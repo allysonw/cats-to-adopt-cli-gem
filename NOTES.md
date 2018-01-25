@@ -17,9 +17,9 @@ A command line interface that lists cats available to adopt within 100 miles of 
 User can select a cat to learn more details about that cat
 
 NEXT STEPS
-- [ ] implement tests (record coding session)
-- [ ] write readme
-- [ ] check each box in your spec.md (replace the space between the square braces with an x) and explain next to each one how - you've met the requirement before you submit your project.
+- [X] implement tests (record coding session)
+- [X] write readme
+- [X] check each box in your spec.md (replace the space between the square braces with an x) and explain next to each one how - you've met the requirement before you submit your project.
 - [ ] Prepare a video demo (narration helps!) describing how a user would interact with your working gem.
 - [ ] Write a blog post about the project and process.
 - [ ] On Learn, submit links to the GitHub repository for your app, your video demo, and your blog post each to the corresponding - textbox in the right rail, and hit "I'm done" to wrap it up.
