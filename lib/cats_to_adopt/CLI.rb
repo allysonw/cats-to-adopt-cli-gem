@@ -18,7 +18,7 @@ class CatsToAdopt::CLI
   end
 
   def menu
-    input = nil
+    input =  ""
 
     while input != "exit"
       puts "\nEnter the number of the cat you would like more info on."

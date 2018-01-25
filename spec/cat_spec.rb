@@ -2,6 +2,10 @@ require 'spec_helper'
 
 RSpec.describe CatsToAdopt::Cat do
 
+  after(:each) do
+    CatsToAdopt::Cat.class_variable_set(:@@all, [])
+  end
+
   let!(:cat) {cat = CatsToAdopt::Cat.new
      cat.name = "Kitty McPhee"
      cat.id = "2304238"

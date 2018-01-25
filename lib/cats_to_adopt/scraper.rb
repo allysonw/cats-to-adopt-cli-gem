@@ -3,7 +3,6 @@ class CatsToAdopt::Scraper
   # for each cat on the main page, scrapes the page for the cat's data and
   # instantiates a Cat object with that data.
   def self.scrape_main_page(main_page_url)
-
     main_page = Nokogiri::HTML(open(main_page_url))
 
     main_page.search(".pet-list-item").each do |cat|
