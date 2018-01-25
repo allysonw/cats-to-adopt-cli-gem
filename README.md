@@ -8,8 +8,7 @@ You can install this gem via `gem install cats_to_adopt_cli_gem`. The `cats_to_a
 ## Usage
 
     Run: `cats_to_adopt` after installing the gem
-    TEST
-
+    
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
