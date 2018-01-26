@@ -20,7 +20,7 @@ NEXT STEPS
 - [X] implement tests
 - [X] write readme
 - [X] check each box in your spec.md (replace the space between the square braces with an x) and explain next to each one how - you've met the requirement before you submit your project.
-- [ ] Prepare a video demo (narration helps!) describing how a user would interact with your working gem.
+- [X] Prepare a video demo (narration helps!) describing how a user would interact with your working gem.
 - [ ] Write a blog post about the project and process.
 - [ ] On Learn, submit links to the GitHub repository for your app, your video demo, and your blog post each to the corresponding - textbox in the right rail, and hit "I'm done" to wrap it up.
 - [X] For bonus points, instead of just creating an application, create a gem and for extra bonus points try publishing it to RubyGems. (record coding session)

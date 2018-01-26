@@ -6,27 +6,30 @@ RSpec.describe CatsToAdopt::Cat do
     CatsToAdopt::Cat.class_variable_set(:@@all, [])
   end
 
-  let!(:cat) {cat = CatsToAdopt::Cat.new
-     cat.name = "Kitty McPhee"
-     cat.id = "2304238"
-     cat.gender = "Male"
-     cat.size = "Small"
-     cat.location = "Los Angeles"
-     cat}
+  let!(:cat) {CatsToAdopt::Cat.new("Kitty McPhee", "2340523", "Male", "Small", "LA")}
 
   describe "::new" do
-    it "creates a new Cat." do
-      expect{new_cat = CatsToAdopt::Cat.new; new_cat.name = "Franklin"}.to_not raise_error
+    it "creates a new Cat with optional attributes" do
+      expect(new_cat = CatsToAdopt::Cat.new("Franklin").id).to match("no id")
     end
 
     it "adds the new cat to the class variable @@all in class Cat." do
       expect(cat.name).to eq("Kitty McPhee")
-      expect(cat.id).to eq("2304238")
+      expect(cat.id).to eq("2340523")
       expect(CatsToAdopt::Cat.class_variable_get(:@@all).first.name).to eq("Kitty McPhee")
     end
   end
 
-  describe "#all" do
+  describe ".create_from_collection" do
+    it "creates new cats with the right attributes & returns them as an array" do
+        new_cats = CatsToAdopt::Cat.create_from_collection([{name: "Buzz", size: "Small"}, {name: "Steven", gender: "Male"}])
+
+        expect(new_cats[0].size).to eq("Small")
+        expect(new_cats[1].name).to eq("Steven")
+    end
+  end
+
+  describe ".all" do
     it 'returns the class variable @@all' do
       CatsToAdopt::Cat.class_variable_set(:@@all, [])
       expect(CatsToAdopt::Cat.all).to match_array([])

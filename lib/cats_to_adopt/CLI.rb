@@ -18,7 +18,9 @@ class CatsToAdopt::CLI
   end
 
   def make_cats
-    CatsToAdopt::Scraper.scrape_main_page(BASE_PATH + 'pets?field_animal_species_tid_selective=958')
+    cat_attributes = CatsToAdopt::Scraper.new.scrape_main_page(BASE_PATH + 'pets?field_animal_species_tid_selective=958')
+
+    CatsToAdopt::Cat.create_from_collection(cat_attributes)
   end
 
   def list_cats
@@ -36,14 +38,14 @@ class CatsToAdopt::CLI
       cats = CatsToAdopt::Cat.all
 
       if input.to_i > 0 && input.to_i < cats.size + 1
-        cat_in_question = cats[input.to_i - 1]
+        selected_cat = cats[input.to_i - 1]
 
-        if cat_in_question.color == nil # we have not yet scraped this cat's profile page
-          attributes = CatsToAdopt::Scraper.scrape_profile_page(BASE_PATH + 'pet/' + cat_in_question.id)
-          cat_in_question.add_cat_attributes(attributes)
+        if selected_cat.color == nil # we have not yet scraped this cat's profile page
+          attributes = CatsToAdopt::Scraper.new.scrape_profile_page(BASE_PATH + 'pet/' + selected_cat.id)
+          selected_cat.add_cat_attributes(attributes)
         end
 
-        cat_in_question.print_cat_info
+        selected_cat.print_cat_info
       elsif input == "list"
         list_cats
       elsif input == "exit"

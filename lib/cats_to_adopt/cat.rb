@@ -4,8 +4,13 @@ class CatsToAdopt::Cat
   @@all = []
 
   # INSTANCE METHODS
-  # save a cat when it's created
-  def initialize
+  # create a new cat with the basic attributes & save it to @@all
+  def initialize(name, id ="no id", gender = "no gender", size = "no size", location = "no location")
+    @name = name
+    @id = id
+    @gender = gender
+    @size = size
+    @location = location
     @@all << self
   end
 
@@ -31,6 +36,15 @@ class CatsToAdopt::Cat
   end
 
   # CLASS METHODS
+
+  # takes an array of hashes of attributes and returns an array of new Cats
+  # with these attributes
+  def self.create_from_collection(cat_attributes)
+    cat_attributes.collect do |attributes_hash|
+      new_cat = self.new(attributes_hash[:name], attributes_hash[:id], attributes_hash[:gender], attributes_hash[:size], attributes_hash[:location])
+    end
+  end
+
   def self.all
     @@all
   end
