@@ -5,6 +5,7 @@
 [![Gem](https://img.shields.io/gem/v/formatador.svg?style=flat-square)]()
 
 # Cats To Adopt CLI Gem
+![](https://static.pexels.com/photos/177809/pexels-photo-177809.jpeg)
 
 A command line interface that lists cats available to adopt from [NKLA](http://nkla.org/) (No Kill Los Angeles). The user can select a cat to learn more details about that cat.
 
