@@ -1,15 +1,22 @@
-# CatsToAdopt::CLI::Gem
+![](http://forthebadge.com/images/badges/made-with-ruby.svg)
 
-A command line interface that lists cats available to adopt from NKLA (No Kill Los Angeles). The user can select a cat to learn more details about that cat.
+![](https://img.shields.io/badge/Released-Jan--2018-ff69b4.svg?style=flat-square)
+[![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat-square)]()
+[![Gem](https://img.shields.io/gem/v/formatador.svg?style=flat-square)]()
 
-Version 0.1.1 can be found at [rubygems.org](https://rubygems.org/gems/cats_to_adopt) 
+# Cats To Adopt CLI Gem
+
+A command line interface that lists cats available to adopt from [NKLA](http://nkla.org/) (No Kill Los Angeles). The user can select a cat to learn more details about that cat.
+
+Version 0.1.1 can be found at [rubygems.org](https://rubygems.org/gems/cats_to_adopt).
 
 ## Installation
-You can install this gem via `gem install cats_to_adopt_cli_gem`. The `cats_to_adopt` CLI will be installed and you can run `cats_to_adopt` to get a list of cats available to adopt from NKLA in your command line.
+
+  `gem install cats_to_adopt_cli_gem`
 
 ## Usage
 
-    Run: `cats_to_adopt` after installing the gem
+Run `cats_to_adopt` after installing the gem.
 
 ## Development
 
