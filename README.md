@@ -1,7 +1,7 @@
 ![](http://forthebadge.com/images/badges/made-with-ruby.svg)
 
 ![](https://img.shields.io/badge/Released-Jan--2018-ff69b4.svg?style=flat-square)
-[![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat-square)]()
+[![GitHub last commit](https://img.shields.io/github/last-commit/allysonw/cats-to-adopt-cli-gem.svg?style=flat-square)]()
 [![Gem](https://img.shields.io/gem/v/formatador.svg?style=flat-square)]()
 
 # Cats To Adopt CLI Gem
